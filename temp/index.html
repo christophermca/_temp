@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>Christopher MCA</title>
+	<link href='http://fonts.googleapis.com/css?family=Cantarell:400,700,400italic,700italic' rel='stylesheet' type='text/css' />
+	
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" media='only screen  and (min-width: 907px)' href="css/style.css" />
+	<link rel="stylesheet" media='all' href="css/bootstrap/bootstrap.css" />
+	
+	<link rel='stylesheet' media='screen and (min-width: 481px) and (max-width: 906px)' href='css/medium.css' />
+	
+		<!--================
+			Mobile media Queries
+		=================-->
+
+
+	<link rel='stylesheet' media='only screen and (max-width:480px)' href='css/narrow.css' />
+	<link rel='stylesheet' media='only screen  and (max-device-width:480px)' href='css/narrow.css' />
+
+	<link rel="stylesheet" media='print' href="css/medium.css" />
+
+
+
+	<!--[if gte IE 9]>
+	  	<style type="text/css">
+	   	 .gradient {
+	       filter: none;
+	   	 }
+	 	 </style>
+	<![endif]-->
+	<script src="js/libs/jquery-1.9.1.js"></script>
+	<script src="js/libs/handlebars-1.0.0-rc.3.js"></script>
+	<script src="js/libs/ember-1.0.0-rc.3.js"></script>
+	<script src="js/app.js"></script>
+	<script src="bootstrap/js/bootstrap.js"></script>
+
+
+</head>
+<body class="titillium gradient">
+
+
+<!-- =====================================================================
+
+Global Template
+
+====================================================================== -->
+
+<script type="text/x-handlebars">
+<header class="nav">
+
+	<nav>
+		<p class='titillium'>
+			{{#linkTo 'index'}}Christopher MCA{{/linkTo}}
+		</p>
+
+			<ul>
+				<li>
+					{{#linkTo 'index'}}Home{{/linkTo}}
+				</li>
+
+					<li>
+						{{#linkTo 'portfolio'}}Artwork{{/linkTo}}
+					</li>
+				
+				<li>
+					{{#linkTo 'info'}}Resum&eacute;{{/linkTo}}
+				</li>
+
+			</ul>
+
+	</nav>
+
+</header>
+
+
+
+
+
+
+	<div class="outlet">
+		{{outlet}}
+
+	</div>	
+
+
+<footer class='screen'>
+	Christopher MCA of Christohper McAdams 2013
+
+</footer>
+
+<footer class='printed'>
+	References upon request
+
+</footer>
+
+</script>
+
+<!--
+======================================================
+
+##Home section
+
+======================================================
+-->
+
+<script type="text/x-handlebars" id="index">
+
+	<img src="images/circle_R4.jpg" class='home' align="middle" width="1350px"/>
+
+</script>
+
+
+
+
+<!--
+======================================================
+
+##Portfolio section
+
+======================================================
+-->
+
+<script type="text/x-handlebars" id='portfolio'>
+	
+		{{#each imageSlides }}
+			
+				<img {{bindAttr src="url"}} align='middle' width="1350px" >
+			
+		{{/each}}
+
+</script>
+
+<!--
+======================================================
+
+##Info section
+
+======================================================
+-->
+
+<script type="text/x-handlebars" id="info" data-template-name=info>
+	<div class="info">
+
+		<header>
+			<embed src="images/logo.svg" width="40px" height="40px"type="image/svg+xml" class="pull-left logo" align="left" />
+
+
+				<div>
+
+					<span>Christopher McAdams</span><br/>
+					<span id="hire"class='titillium'><br class='rwd-break'/>[Web Developer] <br class='rwd-break'/>[Photographer] <br class='rwd-break'/>[Studio Artist]</span>
+				</div>
+
+				<div class="printAddress text-right" >
+					2644 N Emmett Apt. 1 <br class='break'/>
+					Chicago IL. 60647
+				</div>
+		</header>
+		<div class='clear'></div>
+			<!--/*
+		======================================================
+
+		##Info section
+			//Languages
+		======================================================
+		*/-->
+		<span class="resume pull-left">
+			<h4>
+				Languages | Libraries | Frameworks:
+
+			</h4>
+
+				<ul class="langLib inline ">
+						<li>
+							HTML5
+						</li>
+							<li>
+								CSS3
+							</li>
+								<li>
+									Javascript
+								</li>
+								<br class="rwd-break"/>
+									<li>
+										jQuery
+									</li>
+								<li>
+									JSON
+								</li>
+							<li>
+								Wordpress
+							</li>
+							<br class="rwd-break"/>
+						<li>
+							Handlebars
+						</li>
+					<li>
+						Ember
+					</li>
+
+
+						
+				</ul>
+
+				
+			<!--/*======================================================
+
+			##Info section
+				//Skills
+			======================================================
+			*/-->
+
+		<div class="clear"></div>
+
+				<h4>
+					Skills:
+				</h4>
+
+					<ul class="skills inline">
+								<li>
+									UX Testing
+								</li>
+
+									<li>
+										UI Design
+									</li>
+
+										<li>
+											Web Production
+										</li>
+												<br class="rwd-break"/>
+											<li>
+											 	Annotations
+											</li>
+
+									<li>
+										Prototyping		
+									</li>
+
+								<li>
+									Typesetting
+								</li>
+												<br class="rwd-break"/>
+
+							<li>
+								Photography
+							</li>
+
+						<li>
+							Retouching
+						</li>
+								<li>
+									IT Helpdesk
+								</li>
+					</ul>
+				<!--/*
+			======================================================
+
+			##Info section
+				//Software
+			======================================================
+			*/-->
+			<div class="clear"> </div>
+
+					<h4>
+						Applications:
+					</h4>
+
+						<ul class=" application inline clear">
+
+							<li>
+								Sublime Text 2
+							</li>
+
+								<li>
+									Panic Coda
+								</li>
+
+									<li>
+										Adobe Suite CS6
+									</li>
+										<br class="rwd-break"/>
+								<li>
+									inDesign DPS
+								</li>
+
+							<li>
+								Fontlab Studios
+							</li>
+							
+
+						</ul>
+
+					
+
+				<!--/*
+			======================================================
+
+			##Info section
+				//Education
+			======================================================
+			*/-->
+		<div class="clear"></div>
+
+
+			<h4>
+				Education & Accomplishments:
+			</h4>
+
+
+				<div class="edu">
+					<ul class='unstyled'>
+						<li class="pull-left eduTitle" >
+						<mark class="plus">+</mark>	Columbia College Chicago
+						</li> 
+							<li class="pull-right">
+							<div class="dates">	Dec 2010 </div>
+							</li>
+					</ul>
+						<br/>
+							<span class="whatIDid"><i>BA:</i> Photography <i>Focus:</i> Photography,<br class="rwd-break"/>  
+							Web, Retouching, Printing </span>
+					
+				</div>
+
+				<div class="edu">
+					<ul class="unstyled">
+						<li class='eduTitle pull-left'>
+							<mark class="plus">+</mark>
+							Frito Lay Do Us A Flavor <br class='rwd-break'>(DUAF) campaign
+				
+						</li>
+
+							<li class="pull-right">
+								<div class="dates">Phase 1 &#8212; Phase 2</div>
+							</li>
+					<div class="clear"></div>
+				
+							
+							</ul>
+							<span  class='whatIDid'>Designing for the highly awarded <br class="rwd-breakduaf"/>Frito Lays  DUAF campaign</span>
+
+				</div>
+					<div class=clear></div>
+
+			<div class="edu">
+					<ul class="unstyled">
+						<li class='pull-left eduTitle'>
+						<mark class="plus">+</mark>	Worked on pitch campaigns for <br class=' pitchWork rwd-break'/>
+						 SC Johnson, Pearle Vision, Quaker
+							
+						</li>	
+							<li class="pull-right">
+							<div class='dates'>	2012 &#8212; 2013</div>
+							</li>
+					</ul>	
+				<div class=clear></div>
+							<span class="whatIDid">Designing and creating presentation assets</span>
+
+				</div>
+		</span>
+
+
+
+		<!--// END float left-->
+
+
+
+		<!--/*======================================================
+		 
+		##Info section
+			//below floated right to make to a second column
+		======================================================
+		*/-->
+			<!--//below uses Handlebar blocks-->
+
+		<span class="resume  pull-right">
+			<!--//start of Work Expierence-->
+
+			<h4>
+				Work Experience:
+
+
+			</h4>
+			
+				<ul class="unstyled">
+					{{#each workExp}}
+						<li class="unstyled">
+							{{name}} 
+								{{#each duration}}
+									<span class='pull-right dates'>
+											{{#if endTime}}
+												{{startTime}} &#8212; {{endTime}}
+											{{else}}
+												{{startTime}}
+											{{/if}}
+										</span>
+								{{/each}}
+						</li>
+							<span class='title'>{{#each title}}
+								<li >
+
+									[ {{this}} ]
+									</li>
+								{{/each}}</span>
+							
+					
+								
+					{{/each}}
+
+						<!--//start of internship section-->
+
+						<h6>
+							Internship
+						</h6>
+							{{#with internship}}
+							
+							<li>
+								{{name}} 
+									<span class="pull-right dates">
+										{{startTime}} &#8212; {{endTime}}
+									</span>
+							</li>
+							<span class='title'>{{#each title}}
+								<li>
+								
+								[ {{this}} ]
+									
+								</li>
+								{{/each}}</span>
+
+								{{/with}}
+									
+
+						<!--//start of frelance section-->
+
+						<h6>
+							Freelance Work
+						</h6>
+
+							{{#each freelanceWork}}
+								<ul class="unstyled workHist">
+									<li>
+										{{name}}
+			
+										<span class='pull-right clear dates'>
+												{{#each duration}}
+												
+												{{#if endTime}}
+													{{startTime}} &#8212; {{endTime}}
+												{{else}}
+													{{startTime}}
+												{{/if}}
+												
+												{{/each}}
+											</span>
+									</li>
+
+									<span class='title'>	
+										<li >
+											[ {{title}} ]
+										</li>
+									</span>
+
+
+								</ul>
+							{{/each}}
+
+
+				</ul>
+		</span>
+
+	</div>
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,401 @@
+/* Put your CSS here */
+
+/*==============================
+
+#Global
+
+==============================*/
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,400,600,700);
+
+
+html, body {
+	min-
+	background:white;
+    margin: 0px;
+    padding:0 1px 0 1px;
+
+
+}
+
+body{height:auto;
+min-width:320px;}
+.cantarell{
+	font-family: 'Cantarell',  'Calibri', 'Lucida Sans', 'Arial',  sans-serif;
+
+	
+}
+.titillium{
+	font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+
+/*==============================
+
+#Global
+	##Header & nav
+==============================*/
+
+	
+header.nav{
+	top:-5px;
+	width:100%;
+	min-height:20px;
+	padding-bottom: 5px;
+	background-color:#f8f8f8;
+	overflow: hidden;
+	
+
+}
+
+.nav p a{
+	top:5px;
+	left:12px;
+	position: relative;
+	width:300px;
+	letter-spacing: 3px;
+	font-size:1.2em;
+	float:left;
+	color:black
+
+}
+.nav a{
+	color:#035097;
+
+}
+.nav a:hover{
+	text-decoration: none;
+
+}
+
+nav{
+	margin:0px auto;
+	width:85%;
+	min-height:25px;
+
+
+}
+
+.nav{margin:0;}
+
+
+.nav ul{
+	top:5px;
+	width:200px;
+	height:20px;
+	float:right;
+	position: relative;
+	padding:0 0 5px 0;
+
+}
+
+.nav nav li{
+	margin:0% 3%;
+	position: relative;
+	float: left;
+	list-style-type: none;
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+
+}
+
+/*==============================
+
+#Global
+	##Footer
+==============================*/
+
+footer{
+	position: relative;
+	text-align: center;
+
+	font-size:12px;
+	opacity:.4;
+}
+
+/*==============================
+
+#Global
+	##body
+==============================*/
+
+.outlet{
+	display: block;
+	min-height:300px;
+	overflow:auto;
+	margin:0 auto;
+	padding:0% 1% 9% 1%;
+	background-color: red;
+	background:rgb(255,255, 255);
+	overflow: none;
+
+}
+
+
+img {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+
+	-webkit-user-drag: none;
+	-khtml-user-drag: none;
+	-moz-user-drag: none;
+	-o-user-drag: none;
+	user-drag: none;
+	-moz-box-shadow:    4px 10px 30px -10px #555;
+	-webkit-box-shadow: 4px 10px 30px -10px #555;
+	box-shadow:         4px 10px 30px -10px #555;
+
+}
+
+}
+/*==============================
+
+#Home Page
+	
+==============================*/
+
+.home {
+	max-width:1350px;
+	min-width:300px;
+	display: block;
+	min-width:300px;
+	margin:0px auto;
+	text-align: center;
+
+	
+}
+
+
+/*==============================
+
+#Portfolio Page
+	
+==============================*/
+
+.portfolio .active{
+	display:block;
+	max-height: 80%;
+	width:auto;
+
+}
+.portfolio img{
+	display:none;
+
+
+
+}
+
+
+
+/*==============================
+
+#Info Page
+	
+==============================*/
+
+.logo{opacity: 0; margin-left:-40px;}
+
+.info{
+	position:relative;
+	width:90%;
+	margin:0 1%;
+	
+
+}
+
+.info h4,
+.info h6 {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight:400;
+	color:#577FAC;
+}
+.info h4{
+	/*color:#6a6a6a;*/
+	margin:20px 0 0px 0;
+}
+.info h4{
+	/*color:#6a6a6a;*/
+	margin:20px 0 0px 0;
+}
+
+.info h6{
+	margin-bottom:-3px;
+}
+
+.info li .title span{
+	margin-bottom:15px;
+
+}
+
+#hire{
+	top:0;
+	right:10%;
+	display:list-item;
+	list-style-type: none;
+	position:relative;
+	font-size:2.3vw;
+	text-align:left;
+
+}
+
+.info header{
+	top:0px;
+height:75px;
+width:100%;
+position:relative;
+white-space:nowrap;
+	
+}
+
+.info header div{
+	text-align: right;
+}
+
+.info span:first-child{
+	font-size:1.70em;
+	line-height: 8.2em;
+	float:left;
+	padding-right:15%;
+}
+
+.printAddress {
+	display:none;
+
+}
+
+
+
+}
+.info .inline li{
+	padding:0 10px 0 0;
+	
+}
+
+.resume{
+	position: relative;
+	top:-75px;
+	background:white;
+	float:none;
+
+}
+.resume li{
+	color:#4e4e4e;
+	font-weight: 400;
+	font-size: .8em;
+}
+
+.resume .title li{
+	display:inline-block;
+
+}
+
+
+
+
+.edu{
+	margin:0 0 10px 0;
+
+}
+
+/*==============================
+
+#resume
+	##left
+	==============================*/
+
+.langLib li{
+	width:25%;
+	text-align: left;
+	white-space:nowrap;
+}
+
+.skills li{
+width:25%;
+white-space:nowrap;
+
+}
+
+.application li{
+
+	
+width:25%;
+text-align: left;
+white-space:nowrap;
+
+	}
+
+
+.title{
+	margin-bottom:25px;
+	display: block;
+	max-width:70%;
+
+}
+
+.bottomLine{
+	border-bottom:2px solid black;
+	width:60%;
+}
+
+.dates{
+		
+}
+
+.rwd-break{display:none;}
+
+.plus{
+background: none;
+margin-left:-12px;
+}
+
+
+/*break Points*/
+@media all and (max-width: 906px) and (min-width:558px){
+	.rwd-break{display:block;}
+}
+
+@media all and (max-width: 500px){
+#hire .rwd-break{display:block;}
+.resume .rwd-break{display:block;}
+}
+
+@media screen and (max-width:465px){
+	
+}
+
+@media screen and (max-width:445px){
+	.rwd-breakduaf{display:block;}
+	.resume .rwd-break{display:block;}
+
+}
+
+
+
+/* saftey */
+
+@media print{
+	.screen{
+		display:none;
+	}
+	.printed{
+		display:block;
+	}
+}
+
+@media screen{
+	.screen{
+		display:block;
+
+	}
+	.printed{
+		display:none;
+	}
+}
+
+
+
