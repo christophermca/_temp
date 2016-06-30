@@ -1,0 +1,23 @@
+## DEFAULTS
+#
+#files
+.vimrc
+.vundle
+.bashrc
+.bash_profile
+.tmux.conf
+.gitconfig
+.tmuxinator.bash
+.profile
+
+#folders
+.tmuxinator/
+.vim/
+.*md
+.txt
+.bin
+
+## SERVER
+
+#folders
+lib/
