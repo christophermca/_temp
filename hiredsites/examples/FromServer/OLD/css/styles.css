@@ -1,0 +1,40 @@
+/* content */
+.text-header { font-weight: bold; font-size: 12pt; font-family: Arial Narrow, Arial, sans-serif; color: #ffffff;}
+.pageContent { font-size: 8pt; font-family: Tahoma, sans-serif; color: #8D8D8D; }
+ .pageContent a { font-size: 8pt; font-family: Tahoma, sans-serif; color: #8D8D8D; }
+
+/* top elements */
+.company { font-weight: bold; font-size: 14pt; font-family: Arial Narrow, Arial, sans-serif; color: #ffffff; }
+.slogan { font-weight: bold; font-size: 8pt; font-family: Arial Narrow, Arial, sans-serif; color: #ffffff; }
+
+/*main menu*/
+.menu { font-weight: bold; font-size: 8pt; font-family: Tahoma, sans-serif; color: #9399AF; text-decoration: none; }
+.amenu { font-weight: bold; font-size: 8pt; font-family: Tahoma, sans-serif; color: #9399AF; text-decoration: underline; }
+
+/*submenu*/
+.submenutable{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.submenu { font-size: 8pt; font-family: Tahoma, sans-serif; color: #9399AF; text-decoration: none; word-break : break-all; font-family: Tahoma; }
+.asubmenu { font-size: 8pt; font-family: Tahoma, sans-serif; color: #9399AF; text-decoration: underline; }
+
+/*bottom menu*/
+.bmenu { font-size: 8pt; font-family: Tahoma, sans-serif; color: #9399AF; text-decoration: none; }
+.abmenu { font-size: 8pt; font-family: Tahoma, sans-serif; color: #9399AF; text-decoration: underline; }
+
+/*copyright*/
+.footer { font-size: 8pt; font-family: Tahoma, sans-serif; color: #515554; }
+
+/*backgrounds*/
+.main-bg { background-color: #E1E1E1; }
+.submenu-bg { background-color: #4E8BC1; }
+.menu-hr { background-color: #6BA4CF; }
+.line { background-color: #080e0c; }
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}

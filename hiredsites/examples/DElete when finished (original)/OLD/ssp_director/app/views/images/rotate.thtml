@@ -1,0 +1,13 @@
+<script type="text/javascript" charset="utf-8">
+<?php foreach($images as $image): 
+	$arr = unserialize($image['Image']['anchor']); 
+	if (!isset($arr['x'])) { 
+		$arr['x'] = $arr['y'] = 50; 
+	}
+?>
+	$('url_<?php e($image['Image']['id']); ?>').update('<?php e(p($image['Image']['src'], $image['Album']['id'], 176, 132, 1, 70, 1, $arr['x'], $arr['y'], true)); ?>');
+	var parent = $$('li#image_<?php e($image['Image']['id']); ?> div.thumbimg')[0];
+	Element.addClassName(parent, 'loadme');
+<?php endforeach; ?>
+	do_img_load();
+</script>

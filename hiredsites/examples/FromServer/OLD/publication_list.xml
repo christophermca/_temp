@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PUBLICATION-LIST CREATE-TIME="1319520394" VERSION="1.0">
+  <COMPONENT NAME="SB_Modules_GUI" VERSION="4.5.0.2009060515">
+    <RESOURCE PATH="/Modules/Common.lng"/>
+    <RESOURCE PATH="resources/styles/common.xsl"/>
+    <RESOURCE PATH="resources/styles/template.xsl"/>
+    <RESOURCE PATH="resources/styles/report.xsl"/>
+    <RESOURCE PATH="resources/images/statuses-error.gif"/>
+    <RESOURCE PATH="resources/images/statuses-info.gif"/>
+    <RESOURCE PATH="resources/images/statuses-success.gif"/>
+    <RESOURCE PATH="resources/images/mod_email.gif"/>
+    <RESOURCE PATH="resources/images/mod_url.gif"/>
+    <RESOURCE PATH="resources/images/btn_search_bg.gif"/>
+    <RESOURCE PATH="resources/css"/>
+  </COMPONENT>
+  <COMPONENT NAME="SB_Modules_Logger" VERSION="4.5.0.2009060515"/>
+  <COMPONENT NAME="SB_Modules_Broker" VERSION="4.5.0.2009060515"/>
+  <COMPONENT NAME="SB_Modules_Storage" VERSION="4.5.0.2009060515">
+    <RESOURCE PATH="/Modules/Storage/Common.lng"/>
+    <RESOURCE PATH="/Modules/Storage/Attach.lng"/>
+    <RESOURCE PATH="/Modules/Storage/Manager.lng"/>
+    <RESOURCE PATH="/Modules/Storage/Manager/Preview.lng"/>
+    <RESOURCE PATH="/Modules/Storage/Db/Adapter/Mysql.lng"/>
+    <RESOURCE PATH="/Modules/Storage/Db/Adapter/Sqlite.lng"/>
+    <RESOURCE PATH="/Modules/Transport/Response.lng"/>
+    <RESOURCE PATH="/Modules/Transport/Direct.lng"/>
+  </COMPONENT>
+  <COMPONENT NAME="SB_Modules_Wysiwyg" VERSION="4.5.0.2009060515"/>
+  <COMPONENT NAME="SB_Modules_List" VERSION="4.5.0.2009060515">
+    <RESOURCE PATH="/Modules/Paging.lng"/>
+    <RESOURCE PATH="resources/styles/paging.xsl"/>
+  </COMPONENT>
+  <COMPONENT NAME="SB_Modules_Category" VERSION="4.5.0.2009060515">
+    <RESOURCE PATH="/Modules/Category/Action.lng"/>
+  </COMPONENT>
+  <COMPONENT NAME="SB_Modules_Settings" VERSION="4.5.0.2009060515"/>
+  <COMPONENT NAME="PEAR" VERSION="4.5.0.2009060515"/>
+  <COMPONENT NAME="Base_Modules_Session" VERSION="4.5.0.2009060515"/>
+  <COMPONENT NAME="Base_Modules_Filter" VERSION="4.5.0.2009060515"/>
+  <COMPONENT NAME="Base_Modules_Filter_Input" VERSION="4.5.0.2009060515"/>
+  <COMPONENT NAME="SB_Modules" VERSION="4.5.0.2009060515"/>
+  <COMPONENT NAME="SB_Modules_Object" VERSION="4.5.0.2009060515">
+    <RESOURCE PATH="/Modules/Validation.lng"/>
+  </COMPONENT>
+  <COMPONENT NAME="SB_Modules_Locale" VERSION="4.5.0.2009060515"/>
+  <COMPONENT NAME="SB_ModuleInstance" VERSION="4.5.0.2009060515"/>
+  <COMPONENT NAME="SB_Modules_Configuration" VERSION="4.5.0.2009060515">
+    <RESOURCE PATH="/Modules/ModulesConfiguration.lng"/>
+  </COMPONENT>
+  <COMPONENT NAME="SB_User" VERSION="4.5.0.2009060515"/>
+  <COMPONENT NAME="SB_Modules_PublicationExecutor" VERSION="4.5.0.2009060515">
+    <RESOURCE PATH="/Modules/PublicationExecutor/Publish.lng"/>
+  </COMPONENT>
+  <MODULE CODE="ImageGallery" VERSION="4.5.0">
+    <RESOURCE PATH="/Modules/ImageGallery/Frontend.lng"/>
+    <RESOURCE PATH="resources/styles/modules/ImageGallery"/>
+    <RESOURCE PATH="resources/styles/form.xsl"/>
+    <RESOURCE PATH="resources/js/modules/ImageGallery"/>
+    <RESOURCE PATH="resources/images/modules/ImageGallery/no_image.gif"/>
+  </MODULE>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2009060515">page1.php</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2009060515">index.php</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2009060515">page2.php</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2009060515">page3.php</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2009060515">page9.php</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2009060515">menu.xml</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2009060515">config.php</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2009060515">resources/buttons.xsl</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2009060515">resources/submenuitems.xsl</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2009060515">resources/submenu.xsl</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2009060515">attachments/Image/LindyFamily.jpg</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2009060515">data/settings/sitebuilder_db pwd.php</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2009060515">data/settings/api.php</ADDITIONAL-ITEMS>
+  <ADDITIONAL-ITEMS VERSION="4.5.0.2009060515">data/settings/lrim79prsg6_Settings.php</ADDITIONAL-ITEMS>
+  <LOCALE VERSION="4.5.0.2009060515">/Modules/ImageGallery/Frontend.lng</LOCALE>
+  <LOCALE VERSION="4.5.0.2009060515">/Components/Common.lng</LOCALE>
+  <LOCALE VERSION="4.5.0.2009060515">/Components/Storage/Common.lng</LOCALE>
+  <LOCALE VERSION="4.5.0.2009060515">/Components/Storage/Attach.lng</LOCALE>
+  <LOCALE VERSION="4.5.0.2009060515">/Components/Storage/Manager.lng</LOCALE>
+  <LOCALE VERSION="4.5.0.2009060515">/Components/Storage/Manager/Preview.lng</LOCALE>
+  <LOCALE VERSION="4.5.0.2009060515">/Components/Storage/Db/Adapter/Mysql.lng</LOCALE>
+  <LOCALE VERSION="4.5.0.2009060515">/Components/Storage/Db/Adapter/Sqlite.lng</LOCALE>
+  <LOCALE VERSION="4.5.0.2009060515">/Components/Transport/Response.lng</LOCALE>
+  <LOCALE VERSION="4.5.0.2009060515">/Components/Transport/Direct.lng</LOCALE>
+  <LOCALE VERSION="4.5.0.2009060515">/Components/Category/Action.lng</LOCALE>
+  <LOCALE VERSION="4.5.0.2009060515">/Components/Paging.lng</LOCALE>
+  <LOCALE VERSION="4.5.0.2009060515">/Components/Validation.lng</LOCALE>
+  <LOCALE VERSION="4.5.0.2009060515">/Components/ModulesConfiguration.lng</LOCALE>
+  <LOCALE VERSION="4.5.0.2009060515">/Components/PublicationExecutor/Publish.lng</LOCALE>
+  <FILES>
+    <COMPONENT NAME="Modules_ImageGallery" VERSION="4.5.0.2009060515"/>
+    <COMPONENT NAME="SB_Modules_Transport" VERSION="4.5.0.2009060515"/>
+    <COMPONENT NAME="SB_Modules_Transport_Direct" VERSION="4.5.0.2009060515"/>
+    <COMPONENT NAME="SB_Modules_Transport_Direct_Remote" VERSION="4.5.0.2009060515"/>
+    <COMPONENT NAME="SB_Modules_Transport_Rpc" VERSION="4.5.0.2009060515"/>
+    <COMPONENT NAME="SB_Modules_Transport_Request" VERSION="4.5.0.2009060515"/>
+    <COMPONENT NAME="SB_Modules_Logger" VERSION="4.5.0.2009060515"/>
+    <COMPONENT NAME="SB_Modules_Broker" VERSION="4.5.0.2009060515"/>
+    <COMPONENT NAME="SB_Modules_Category" VERSION="4.5.0.2009060515"/>
+    <COMPONENT NAME="SB_Modules_List" VERSION="4.5.0.2009060515"/>
+    <COMPONENT NAME="SB_Modules_Settings" VERSION="4.5.0.2009060515"/>
+    <COMPONENT NAME="Base_Modules_Session" VERSION="4.5.0.2009060515"/>
+    <COMPONENT NAME="Base_Modules_Filter" VERSION="4.5.0.2009060515"/>
+    <COMPONENT NAME="Base_Modules_Filter_Input" VERSION="4.5.0.2009060515"/>
+    <COMPONENT NAME="SB_Modules" VERSION="4.5.0.2009060515"/>
+    <COMPONENT NAME="SB_Modules_const" VERSION="4.5.0.2009060515"/>
+    <COMPONENT NAME="SB_Modules_Object" VERSION="4.5.0.2009060515"/>
+    <COMPONENT NAME="SB_Modules_Object_Publish" VERSION="4.5.0.2009060515"/>
+    <COMPONENT NAME="SB_Modules_Locale" VERSION="4.5.0.2009060515"/>
+    <COMPONENT NAME="SB_ModuleInstance" VERSION="4.5.0.2009060515"/>
+    <COMPONENT NAME="SB_Modules_Configuration" VERSION="4.5.0.2009060515"/>
+    <COMPONENT NAME="SB_User" VERSION="4.5.0.2009060515"/>
+    <COMPONENT NAME="SB_Modules_PublicationExecutor" VERSION="4.5.0.2009060515"/>
+    <COMPONENT NAME="SB_ModuleInstance_Publish" VERSION="4.5.0.2009060515"/>
+  </FILES>
+  <DIRS>
+    <COMPONENT NAME="Modules_ImageGallery" VERSION="4.5.0.2009060515"/>
+    <COMPONENT NAME="SB_Modules_GUI" VERSION="4.5.0.2009060515"/>
+    <COMPONENT NAME="SB_Modules_Storage" VERSION="4.5.0.2009060515"/>
+    <COMPONENT NAME="SB_Modules_Transport_Server" VERSION="4.5.0.2009060515"/>
+    <COMPONENT NAME="SB_Modules_Transport_Client" VERSION="4.5.0.2009060515"/>
+    <COMPONENT NAME="SB_Modules_Wysiwyg" VERSION="4.5.0.2009060515"/>
+    <COMPONENT NAME="SB_Modules_Category" VERSION="4.5.0.2009060515"/>
+    <COMPONENT NAME="PEAR" VERSION="4.5.0.2009060515"/>
+  </DIRS>
+</PUBLICATION-LIST>

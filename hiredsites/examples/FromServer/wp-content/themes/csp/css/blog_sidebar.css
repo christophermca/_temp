@@ -1,0 +1,42 @@
+#rightside h3{ 
+
+	font-size:18px;
+	margin:30px 0px 10px 0px;
+	color: #662999;
+}
+
+#rightside li{
+
+min-height:10px;
+margin-bottom:10px;
+
+}
+
+#searchform{
+
+
+
+
+}
+
+#rightside a{
+font-size:14px;
+
+
+
+
+}
+
+
+
+#rightside{
+position: relative;
+top:30px;
+
+width:200px;
+min-height:100px;
+}
+
+.tagcloud{
+display: block;
+min-height: 100px;}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery>
+  <album id="images" title="images" description="" lgPath="images/" tnPath="slideshow" tn="">
+	
+    <img src="001.jpg" />
+	<img src="002.jpg" />
+	<img src="004.jpg" />
+	<img src="005.jpg" />
+	<img src="007.jpg" />
+	<img src="008.jpg" />
+	<img src="009.jpg" />
+	<img src="010.jpg" />
+	<img src="011.jpg" />
+	<img src="012.jpg" />
+	<img src="013.jpg" />
+	<img src="014.jpg" />
+				</album>
+
+</gallery>

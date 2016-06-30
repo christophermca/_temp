@@ -1,0 +1,370 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend table, caption, tbody, tfoot, thead, tr, th, td {margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline}
+body {line-height: 1}
+ol, ul {list-style: none}
+blockquote, q {quotes: none}
+:focus {outline: 0}
+ins {text-decoration: none}
+del {text-decoration: line-through}
+table {border-collapse: collapse; border-spacing: 0}body {text-align:left; font:12px/18px 'Lucida Grande', 'Lucida Sans Unicode','Lucida Sans Regular', Verdana, sans-serif}
+a {text-decoration:none; cursor:pointer}
+a:focus {-moz-outline:0; outline:0; outline-offset:0}
+a:hover, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, h3.dash a, div#header-links a, ul#main-nav li a:hover {text-decoration:none}
+a img, #pop-image img {border:0}
+h1 {font-weight:normal; font-family:'Lucida Grande', 'Trebuchet MS','Lucida Sans Unicode','Lucida Sans Regular', Verdana, sans-serif; font-size:24px}
+h2 {font-weight:bold; font-family:'Lucida Grande', 'Trebuchet MS','Lucida Sans Unicode','Lucida Sans Regular', Verdana, sans-serif; font-size:15px}
+h3 {font-weight:bold; font-family:'Lucida Grande', 'Trebuchet MS','Lucida Sans Unicode','Lucida Sans Regular', Verdana, sans-serif; font-size:10px; text-shadow:none; text-transform:uppercase}
+h4 {font-weight:bold; font-family:'Lucida Grande', 'Trebuchet MS','Lucida Sans Unicode','Lucida Sans Regular', Verdana, sans-serif; font-size:13px}
+h5 {font-weight:bold; font-family:'Lucida Grande', 'Trebuchet MS','Lucida Sans Unicode','Lucida Sans Regular', Verdana, sans-serif}
+h6 {font-weight:bold; font-family:'Lucida Grande', 'Trebuchet MS','Lucida Sans Unicode','Lucida Sans Regular', Verdana, sans-serif; font-size:12px}
+p {margin:0 0 14px 0}
+small, div#header-slideshow select, div#header-slideshow input, div.header-radius select, div.header-radius input, ul.small-nav li select, ul.small-nav li input, table.sortable th span.sm {font-size:9px}
+strong, ul.dash-strip li strong, div.pagination span.current {font-weight:bold}
+h2 span, h4 small, form.quad label {font-weight:normal}
+div.left-col h4, div.left-col-solo h4 {margin:0 0 6px 0}
+h3 small {font-size:10px; font-weight:normal; word-spacing:0em}
+h3.dash, ol.photo-thumbs-list li img, img.b-thick {padding:3px}
+h4 span {top:6px; right:8px; font-size:10px}
+h3.logo {width:252px; height:32px}
+h4.error {padding:6px; font-size:12px; font-weight:bold}
+h4.smart {padding-left:24px}
+div#helper {position:absolute; width:200px; padding:5px; z-index:500}
+div#helper p {padding:0; margin:0; font-size:11px}
+span.preview-me span, span.preview-me-prv span, tr.publish td.title h5 span {display:none}
+span.preview-me:hover, span.preview-me-prv:hover, ul.dash-strip li.sort span small, table.sortable th.sortcol {cursor:pointer}
+#pop-image {position:absolute; z-index:1000; padding:6px; float:left; display:table}
+#pop-image ul {list-style:none; margin-bottom:10px; font-size:10px}
+div#header-links {font-size:9px; padding:2px 0; text-align:right}
+div#header-links .wrap {margin-right:36px; display:block}
+div#header-links a:hover, div.dialogue-content a, div#alert div.error a, small.link {text-decoration:underline}
+div#header {display:block; width:100%; float:left; position:relative}
+div#header .top-half {height:77px; display:block; position:relative}
+div#header-logo {display:block; margin-left:30px}
+div#header-logo a.img {width:371px; height:77px; display:block}
+div#header-nav, div#edit-head {position:relative}
+ul#main-nav {list-style:none; width:100%; height:31px; min-width:400px}
+ul#main-nav li {float:left; margin:0 3px 0 0; padding:0 0 0 7px; height:31px}
+ul#main-nav li.first {margin-left:30px}
+ul#main-nav li a {float:left; display:block; text-decoration:none; font-weight:bold; font-size:13px; margin:0; padding:8px 10px 10px 3px; font-family:'Lucida Grande', 'Trebuchet MS','Lucida Sans Unicode','Lucida Sans Regular', Verdana, sans-serif}
+div#header-slideshow {height:31px; position:absolute; right:42px; top:0}
+div#header-slideshow div.wrap {padding:0 0 0 7px; float:left}
+div#header-slideshow div.wrap div {display:block; padding:6px 8px 8px 2px; float:left}
+div#page {float:left; width:100%; display:block; padding:0 0 10px 0}
+div#container {margin:0 30px; min-width:940px}
+div#head {padding:18px 15px 0 15px}
+div#head div.head-wrap {position:relative; width:100%; clear:left}
+div#head div.album-head {padding:8px 0 0; float:left; position:relative; width:100%}
+div#head h1 {padding:6px 0 18px 42px; margin:8px 0 0 0}
+div#head h1.noicon, div.dialogue-content fieldset.embed {padding-left:0}
+div#head h2 {margin-top:3px}
+div#head h2 span.desc {font-size:12px; margin-top:5px; display:block}
+div#head-form {float:right}
+div#head-form div.icon-bump {padding-top:8px}
+div#container-wrap {position:relative; float:left; width:100%}
+div#container-footer {line-height:0.5}
+div#container-footer div {padding-top:2px}
+div.col-wrap {margin:15px 15px 0}
+div.left-col, div.right-col {float:left; width:50%}
+div.left-col-solo, #dash-right-col .inner {float:left; width:100%}
+div.left-col-inside {margin-right:8px}
+div.right-col-inside {margin-left:7px}
+div.module {margin-bottom:15px; font-size:11px; position:relative; width:100%}
+div.module-head {padding:9px 12px 9px 12px}
+div.module-head h3, div.module-footer div, .clearfix {display:block}
+div.module-head h3.yanker {line-height:0; height:0}
+div.module h5 {margin:0 0 2px 0}
+div.module p {padding:0 0 4px 0}
+div.module div.wrap {float:left; width:100%; margin:0 0 -14px 0; _margin:0 0 -8px 0; padding:10px 0 0 0}
+div.module div.content {margin:0 12px}
+div.module div.divider {margin:0 0 9px 0; width:100%; height:1px}
+div.embed {padding:8px 10px 0 10px; margin:0 0 8px 0}
+div.embed fieldset, fieldset.solo p, select, table.sortable td.title span {font-size:11px}
+div.embed fieldset span, span.more a {font-size:10px}
+ul.styled {margin-bottom:20px; padding-left:20px; list-style:disc}
+div#footer {display:block; clear:both; padding-bottom:12px}
+div#footer span {padding:0 36px; font-size:9px}
+div#multi-footer {display:block; width:100%; padding:10px 0; position:fixed; left:0px; bottom:0px; text-align:center; font-size:11px; z-index:10000}
+div#multi-footer ul {display:block; margin:0 auto; width:455px; overflow:auto; list-style:none}
+div#multi-footer ul li {float:left; margin:0 4px}
+body>div#multi-footer, div#the_img .edit-wide, div.dialogue-content fieldset.embed td select {width:100%}
+div#simple-footer {display:block; clear:both; margin:-6px 0 0 0}
+div#simple-footer span {padding:0 12px; font-size:9px; font-weight:bold}
+#dash-left-col {width:676px; _width:678px; float:left; position:relative}
+#dash-left-col .inner-left {width:240px; _width:237px; float:left; margin-right:15px}
+#dash-left-col .inner-right {width:421px; float:left}
+#dash-right-col {margin-left:692px; _margin-left:685px; _display:inline-block}
+div#sub-nav {height:36px; line-height:36px; position:relative; float:left; display:block; width:100%; margin-bottom:15px}
+div#sub-nav ul {list-style:none; height:36px; width:100%; display:block}
+div#sub-nav ul li {float:left; margin:0 18px 0 0}
+div#sub-nav ul li a {font-weight:bold; font-size:11px; float:left; display:block; text-decoration:none; font-family:'Lucida Grande', 'Trebuchet MS','Lucida Sans Unicode','Lucida Sans Regular', Verdana, sans-serif}
+div#sub-nav ul li.title {padding:0 15px; margin-right:0}
+div#sub-nav ul li.spacer {width:21px; margin-right:10px}
+input {vertical-align:middle; font-family:'Lucida Grande', 'Lucida Sans Unicode','Lucida Sans Regular', Verdana, sans-serif; font-size:11px; margin:0; padding:1px 2px}
+textarea {font-family:'Lucida Grande', 'Lucida Sans Unicode','Lucida Sans Regular', Verdana, sans-serif; font-size:11px; margin:0; padding:1px 2px}
+button {background-repeat:no-repeat}
+input.radio {width:auto; margin:0; background:transparent; border:none}
+input.field-input {margin:2px 0 14px 0}
+input.wide, textarea.wide {width:99%}
+input.nomargin {margin:0}
+fieldset {border:0; margin:0; padding:2px 0 14px 0; display:block; position:relative}
+fieldset.short, form.quad {padding-bottom:8px}
+fieldset.solo {padding:10px 0; margin:0 0 14px 0; display:block}
+fieldset.install-button, table.sortable th.right {text-align:right}
+span.top-bump, fieldset.top-bump {display:inline-block; margin:8px 0 0; padding:0}
+label {font-weight:bold; display:block; margin:0; padding:0 0 6px 0; font-family:'Lucida Grande', 'Trebuchet MS','Lucida Sans Unicode','Lucida Sans Regular', Verdana, sans-serif}
+fieldset span img, div.header-radius h6 {margin-bottom:-2px}
+form.quad td {font-size:10px; width:33%}
+ul.album {background:#e1e1e1; font-size:.9em; padding:3px 10px; margin:0 10px}
+ul.dash-strip li {padding:10px 0; position:relative}
+ul.dash-strip li.inactive, ul#albums-repo li {opacity:0.3; filter:alpha(opacity:30)}
+ul.dash-strip li.inactive:hover {opacity:0.9; filter:alpha(opacity:90)}
+ul.dash-strip li.solo {padding-top:0; border-bottom:0}
+ul.dash-strip li.last, ul.dash-strip li.force-last {border-bottom:0}
+ul.dash-strip li span small a {font-size:9px; line-height:2.5}
+ul.dash-strip li.sort, div.scale-image.sort, li.sort div.meta, li.sort div.title, img#anchor:hover {cursor:move}
+ul.dash-strip div.no-thumb {height:25px}
+ul.dash-strip div.no-thumb div {width:30px; height:100%}
+ul.dash-strip li div.thumb {float:left; margin-right:8px; width:34px; height:29px; overflow:hidden; background-image-position:center}
+fieldset.embed {margin:0 0 15px 0; padding:8px 10px; font-size:10px}
+ol.photo-thumbs-list, ul.small-nav {list-style:none}
+ol.photo-thumbs-list li {float:left; margin:0 11px 10px 0; position:relative}
+ol.photo-thumbs-list li.end, ul#image-view li.end, table.sortable div.album-thumb-bg {margin-right:0}
+ol.photo-thumbs-list li img.video-overlay, ul#image-view li img.video-overlay {position:absolute; top:0; left:0; padding:2px 1px 1px 1px; margin:0; z-index:999}
+.album-thumb-bg {display:block; width:48px; height:37px; margin-right:12px; position:relative; float:left}
+.album-thumb-img {margin:1px 0 0 1px; width:46px; height:35px; overflow:hidden; background-image-position:center; display:block}
+button.primary_sm, button.primary_sm_alt {font-weight:bold; display:inline-block; margin:0 auto; text-align:center; cursor:pointer; opacity:0.99; font:9px/16px 'Lucida Grande', Verdana, sans-serif; height:18px; padding:0 7px; -webkit-border-radius:3px}
+button.primary_lg, button.primary_lg_alt {font-weight:bold; display:inline-block; margin:0 auto; text-align:center; cursor:pointer; opacity:0.99; font:11px/22px 'Lucida Grande', Verdana, sans-serif; height:24px; padding:0 8px; -webkit-border-radius:3px}
+button.primary_lg:hover, button.primary_lg_alt:hover {background-position:0 -23px}
+button.primary_sm:hover, button.primary_sm_alt:hover, a:hover.active-image-btn, a:hover.inactive-image-btn, a:hover.edit-image-btn, ul#image-view li.inactive a:hover.active-image-btn, ul.album-view li.inactive a:hover.active-image-btn {background-position:0 -18px}
+button.nudge {margin-top:-2px}
+button.center, a.center, div.dialogue-content fieldset.embed table {margin:0 auto}
+button.left, a.left {float:left; margin:0 4px 0 0}
+button.right, a.right {float:right; margin:0 0 0 4px}
+button.nudgeR {margin-right:4px !important}
+button.nudgeL {margin-left:4px !important}
+button.nudgeT {margin-top:4px !important}
+button[disabled] {opacity:0.5; cursor:default}
+button[disabled]:hover {background-position:0 0}
+button.pull-right {margin-right:-3px}
+a.icon {width:16px; height:16px; padding:0; margin:1px 0 0 0; display:block; border:none; -webkit-border-radius:3px}
+a.icon:hover {background-position:0 -16px}
+a.nudgeR {float:left; margin-right:4px}
+a.circle-bttn {width:24px; height:24px; padding:0; display:block; border:none}
+a.circle-bttn:hover {background-position:0 -24px}
+div.header-radius {margin:0 0 15px 0; position:relative}
+div.header-radius div.content {padding:3px 12px; margin:0}
+div.header-radius img.gray-edge {float:left; position:relative; margin:2px 8px 0 0; padding:1px}
+div.header-radius span.subtext {font-size:9px; display:block}
+div.header-radius div.tr, div#alert div.tr {padding:4px 0 0 4px}
+div.header-radius div.br, div#alert div.br {padding:4px 0 0 0}
+ul.small-nav li {float:left; margin:0 3px 0 0}
+ul.small-nav li.title {margin:0 8px 0 0; font-size:10px; text-shadow:none; text-transform:uppercase}
+div.counter, div.counter-off {margin:6px 0 6px 0; height:16px; text-align:center; display:block; position:relative; clear:left}
+div.counter span, div.counter-off span {display:block; margin-left:5px; padding:0 5px 1px 0; font-size:9px}
+div.editBttns {display:block; margin:0 auto}
+ul#galleries-view div.editBttns, ul#albums-repo div.editBttns {width:44px}
+a.active-image-btn, a.inactive-image-btn, a.c-active-image-btn, a.c-inactive-image-btn {display:block; height:18px; width:20px; float:left; margin:0 2px 0 0}
+div#image-view-wrap.wide, div#album-view-wrap.wide {overflow:hidden; height:218px; position:relative}
+div#image-view-wrap, div#album-view-wrap {height:auto}
+div#image-view-wrap.wide ul#image-view, div#album-view-wrap.wide ul.album-view, img#anchor {position:absolute}
+ul#image-view, ul.album-view {padding:2px 0 12px}
+ul#image-view li {float:left; padding:0 6px; margin:0 8px 8px 0; position:relative; font-size:9px}
+ul#image-view li.inactive {opacity:0.30; filter:alpha(opacity:30)}
+ul#image-view li.current a.active-image-btn, ul#image-view li.current a.edit-image-btn, ul#image-view li.current div.inactive a.active-image-btn {background-position:0 -36px}
+ul#image-view li.current a:hover.active-image-btn, ul#image-view li.current a:hover.edit-image-btn, ul#image-view li.current div.inactive a:hover.active-image-btn {background-position:0 -54px}
+ul#image-view li div.info {text-align:center; display:block; font-size:9px; position:relative; height:24px; margin-top:5px}
+ul#image-view li div.meta {height:22px; line-height:22px; display:block; text-align:center; overflow:hidden; width:100%; z-index:800; font-family:'Lucida Grande','Lucida Sans Unicode','Lucida Sans Regular',Verdana,sans-serif}
+div#edit-box {padding:0 0 15px 0; margin:10px 0 10px 0; z-index:500}
+div#edit-box p {font-size:.8em; padding:3px 15px; text-align:right; margin-bottom:0}
+div#edit-box p.src {margin:0; clear:both; padding:0; text-align:center}
+div#edit-box p.src a img {border:0; padding:0 0 4px}
+div#edit-box-head {display:block; height:24px; line-height:24px; width:100%; float:left; padding:12px 0; position:relative; text-align:center}
+div#edit-box-head div.circle-nav {margin:0 auto; display:block; position:relative; width:372px}
+div#edit-box-head div.circle-nav span {display:block; float:left; margin:0 12px; font-size:14px; width:300px; text-align:center}
+div#edit-box-head div.circle-nav a {display:block; float:left}
+div#edit-box-wrap {width:100%; position:relative; float:left; -webkit-border-radius:8px}
+div#edit-box-wrap div.inner-pad {padding:12px 0}
+div#edit-box-img-bttns {height:24px; display:block; position:relative}
+div#edit-box-left-col {width:31%; max-width:350px; float:left; margin-left:2%}
+div#edit-box-left-col div.img-meta {margin:4px 0 12px 0; font-size:10px}
+div#edit-box-right-col {width:65%; margin-left:2%; float:left}
+div#edit-box-right-col div.half-col-left {width:58%; float:left}
+div#edit-box-right-col div.half-col-right {width:38%; float:left; margin-left:3%}
+div#edit-box-foot {position:relative; clear:left; display:block; padding-top:12px; height:24px}
+div#rotator {width:100%; display:block; position:relative}
+div#rotator table {margin:12px auto; width:100%}
+div#target {padding:0 10px}
+div#target p {font-size:.9em; padding:4px; text-align:center; margin-bottom:1em}
+div#resize-thumbs-ctrl {position:absolute; right:0; width:400px}
+div#resize-label {margin-top:1px; text-align:right; font-size:10px; text-shadow:none; text-transform:uppercase}
+div#slider {float:right; margin:0 4px 0 0; position:relative}
+div#track1 {width:197px; height:21px}
+div#handle1 {width:21px; height:21px; cursor:pointer}
+div#edit-images-scroll {padding:10px 10px 8px 10px; margin:12px 0 14px 0}
+div#track {width:100%; height:21px; margin:0; text-align:left}
+div#track_l, div#handle_l {float:left; width:5px; height:21px}
+div#track_r, div#handle_r {float:right; width:5px; height:21px}
+div#handle {float:left; width:200px; height:21px; cursor:pointer}
+div.scale-image, div.scale-image-off {padding:0; margin:0; text-align:center; height:100%; width:175px; position:relative}
+div.scale-image div.thumbimg, div.scale-image-off div.thumbimg {height:100%; position:relative}
+div.scale-image div span.meta {display:block; width:100%; position:absolute; bottom:0; text-align:center}
+div#vid-previews img {max-width:100%}
+div#vid-previews div.lg {width:100px; display:block; margin-bottom:12px}
+div#vid-previews div.sm {width:50px; display:block}
+div#the_img .edit-tall {height:270px; margin:0 auto}
+div#img_wrapper {text-align:center; position:relative; margin:0 auto}
+ul.album-view li {float:left; padding:8px 8px 0; margin:0 8px 8px 0; position:relative; width:200px}
+ul.album-view li div.title {display:block; margin-bottom:6px; overflow:hidden; height:16px; line-height:16px}
+ul.album-view li div.info {text-align:right; display:block; font-size:9px; position:relative; clear:left; height:24px}
+ul.album-view li div.meta {float:left; width:100%; padding:6px 0; margin:0 0 4px 0}
+ul.album-view li div.copy {font-size:9px; line-height:1.65}
+ul.album-view li div.album-thumb-bg {float:left}
+div#select-thumb {height:138px; overflow:auto; text-align:left}
+table#file_list {width:100%; margin:0 0 12px 0; border:none}
+table#file_list td {text-align:center; padding:4px}
+table#file_list th {text-align:center; padding:4px; font-size:10px; padding-left:0; text-transform:uppercase}
+table#file_list td.left, table#file_list th.left {text-align:left; width:50%}
+table#file_list td.error {font-weight:bold; background:#444}
+table.sortable {width:100%; margin:0 0 12px 0}
+table.sortable th {font-size:10px; font-weight:bold; padding:9px 12px 8px 12px; text-align:center; font-family:'Lucida Grande', 'Trebuchet MS','Lucida Sans Unicode','Lucida Sans Regular', Verdana, sans-serif; text-transform:uppercase}
+table.sortable th.nosort {cursor:default}
+table.sortable td {padding:12px; text-align:center; vertical-align:middle}
+table.sortable th.title, table.sortable tr.foot td {text-align:left}
+table.sortable td.title {text-align:left; vertical-align:top}
+table.sortable td.thumb {text-align:left; padding-right:0; width:40px; vertical-align:top}
+table.sortable tr.subth td {padding:4px 10px}
+table.sortable a.edit-image-btn, table.sortable a.inactive-image-btn, table.sortable a.active-image-btn {background-position:0 -108px}
+table.sortable a.edit-image-btn:hover, table.sortable a.active-image-btn:hover {background-position:0 -126px}
+table.sortable tr.even a.active-image-btn, table.sortable tr.even a.inactive-image-btn {background-position:0 -144px}
+table.sortable tr.even a.active-image-btn:hover, table.sortable tr.even a.inactive-image-btn:hover {background-position:0 -162px}
+div.pagination {float:right; font-size:10px}
+div.pagination span {margin-right:2px}
+ul#rule-target li {padding:10px 12px; margin-bottom:6px; -webkit-border-radius:4px}
+div.dialogue-wrap {position:fixed; width:100%; height:100%; top:0; left:0; display:table; z-index:1000}
+div.dialogue {display:table-cell; vertical-align:middle; text-align:center}
+div.dialogue-content {margin:-30px auto 0; text-align:left !important; -webkit-border-radius:6px; width:420px}
+div.dialogue-content div.dialogue-inner-wrap {-webkit-border-radius:6px; padding:12px; margin:6px}
+p#messenger-p {margin:0; text-align:center}
+div#messenger-wrap input, div#alert div.fixed button.right {margin-top:6px}
+span#messenger-span {padding:2px 0 2px 20px; margin:0 auto; font-weight:bold}
+div.dialogue-content h1 {font-size:1.7em; margin:0 0 12px 0; font-weight:bold}
+div.dialogue-content fieldset.embed td {padding:1px 4px 1px 0}
+div.dialogue-spacer {padding:6px 8px 8px 8px; margin:8px 0 16px 0; display:block}
+div.dialogue-spacer fieldset table td {padding:100px}
+table#macro_table td {padding:4px}
+div.dialogue ul.dialogue-options li {clear:left; margin-bottom:6px; padding-bottom:6px}
+div.dialogue div.dialogue-scroll {overflow:auto; height:140px; margin-bottom:15px; padding:8px; position:relative}
+div.dialogue p.warning {padding:3px 0 3px 21px; border:1px solid #458713; font-size:10px}
+div.dialogue p.warn-fixed {padding-top:0; height:24px; line-height:24px}
+div.form-msg {font-size:9px; padding-left:13px; margin-left:4px; display:inline}
+div#alert {margin:0 0 15px 0; font-size:1em; position:relative; clear:left}
+div#alert div.content {padding:0 6px; margin:0}
+div#alert div.fluid {min-height:30px; padding:0 0 0 36px}
+div#alert div.fixed {height:30px; line-height:30px; padding:0 0 0 36px}
+span#progress_wrap {display:block; width:100%; text-align:center}
+span#progress_container {margin:7px auto 0; width:300px; height:10px; position:relative; display:block}
+span#progress {width:0; height:10px; position:absolute; top:0; left:0; font-size:0}
+body#login h4 {padding:15px; font-size:22px; font-weight:normal}
+body#login div#footer {text-align:center}
+div#login-container {text-align:center; width:100%}
+div#login-content {margin:120px auto 0; text-align:left}
+label.twin-top {padding-bottom:2px}
+label.sub {font-weight:normal; font-size:10px}
+p.accept, h3.accept {padding-left:18px !important}
+p.success {padding-left:22px !important}
+p.error, h3.error {padding-left:22px !important; display:block}
+p.halfstep {margin:0 0 4px 0}
+div.clear {clear:both; line-height:0}
+.clearfix:after {content:"."; display:block; height:0; clear:both; visibility:hidden}
+* html .clearfix {height:1%}
+.icon_label_album, .icon_label_gallery, .icon_label_user, .icon_label_newalbum, .icon_label_newgallery, .icon_label_profile, .icon_label_feed, .icon_label_uploadimg, .icon_label_slideshow {padding:0 0 0 24px; display:block}
+.icon_label_doc {padding:0 0 0 24px; display:block; padding-left:20px}
+.icon_label_smartalbum, .icon_label_smartgallery {padding:0 0 0 28px; display:block}
+.indent {padding:0 15px}
+.inline {display:inline}
+.module-first {margin-top:-10px}
+.gray-edge {padding:1px}
+.nopad {padding:0}
+span.note {font-size:9px; line-height:16px; display:block; padding:0 0 12px 0}
+span.help {cursor:help; font-weight:normal; font-size:10px}
+span.help span {display:none; font-size:14px !important; line-height:2px !important}
+span.refresh_spin {display:inline; padding-left:14px}
+span.warn {padding-left:18px; background:transparent url(../img/icon_warn.png) no-repeat top left}
+div.copier {display:block; float:right; position:relative}
+img.wide {width:98%; height:auto; padding:2px}
+table.sortable div.copier {float:none}ul#process {background:#444;list-style:none;float:left;display:block;width:100%;margin-bottom:24px;}
+ul#process.end {background:#76b41c;}
+ul#process li {background:transparent url(../styles/default/img/bg_process_default.gif) top right no-repeat; text-shadow: #222 0px 0px 2px; float:left; height:24px; line-height:24px; padding:0 20px 0 6px; font-weight:bold; font-family:"Lucida Grande", Verdana}
+ul#process li.last {background:none;}
+ul#process li.first {padding-left:15px;}
+ul#process li.active {color:#fff; text-shadow:#3a5810 0px 0px 2px; background:#76b41c url(../styles/default/img/bg_process_active.gif) top right no-repeat; padding-right:20px}
+ul#process li.prevactive {color:#fff; text-shadow:#3a5810 0px 0px 2px; background:#679c19 url(../styles/default/img/bg_process_prevactive.gif) top right no-repeat}
+ul#process li.complete {color:#fff; text-shadow:#3a5810 0px 0px 2px; background:#679c19 url(../styles/default/img/bg_process_complete.gif) top right no-repeat}
+ul#process li.complete span, ul#process li.prevactive span {background:transparent url(../styles/default/img/icon_check_process_12px.gif) 0 50% no-repeat;}
+ul#process li span {display:block;}
+ul#process li.complete span, ul#process li.prevactive span {padding-left:18px;}
+ul#process.end li.active {background:none;}
+a.lang-btn {display:block;padding:0 12px 12px 12px; font-size:10px; border-bottom:1px solid #333;}
+a.lang-btn:hover {background:#2a2a2a; border-color:#444}
+a.lang-btn h4 {background:transparent !important; margin-bottom:-4px}
+div.dialogue-wrap {background: url(../img/msg-bg.png);}
+div#messenger-wrap span.accept {background: #76b41c url(../img/icon_accept.png) no-repeat top left;}
+div#messenger-wrap span.hourglass {background: #76b41c url(../img/icon_loading_pie.gif) no-repeat top left;}
+div#messenger-wrap span.exclamation {background: #76b41c url(../img/icon_error.png) no-repeat top left;}
+div#messenger-wrap span.stop {background: #76b41c url(../img/icon_warn.png) no-repeat 0 3px;}
+span#messenger-span {color:#fff;}
+div.dialogue-content {color:#121212;}
+div.dialogue-content h1 {color:#fff;}
+div.dialogue-content h1 span.sub {color:#35660f;font-size:14px;}
+div.dialogue-content a {color:#fff;}
+div.dialogue-content div.dialogue-inner-wrap {background:#76b41c;border:1px solid #89cf21;}
+div.dialogue-content fieldset.embed {background:transparent;border:none;}
+div.dialogue-content {background:#679c19;border:1px solid #000;}
+div.dialogue-spacer {background:#679c19;border:1px solid #458713;}
+div.dark-modal div.dialogue-content {color:#999;background:#333;}
+div.dark-modal div.dialogue-inner-wrap {position:relative;overflow:auto;background:#222;border:1px solid #101010;}
+div.dark-modal div.col-iptc {width:49%;float:left;}
+div.dark-modal div.col-exif {width:49%;margin-left:2%;float:left;}
+div.dark-modal div.dialogue-content strong {color:#fff}
+div#image-info p {text-align:left;padding:0;margin:0;}
+div.dialogue p.warning {background:#679c19 url(../img/icon_warn.png) no-repeat 4px 6px}
+div.dialogue-content input {border-color:#458713}
+div.dialogue span#all-albums-info {font-size:9px; display:block; clear:left; line-height:12px; margin:4px 0 0 0}
+div#head h1.snapshot {background:transparent url(../img/icon_header_snapshot.png) no-repeat 0 0;}
+div#head h1.albums {background:transparent url(../img/icon_header_albums.png) no-repeat 0 0;}
+div#head h1.galleries {background:transparent url(../img/icon_header_galleries.png) no-repeat 0 0;}
+div#head h1.slideshow {background:transparent url(../img/icon_header_slideshow.png) no-repeat 0 0;}
+div#head h1.profile {background:transparent url(../img/icon_header_profile.png) no-repeat 0 0;}
+div#head h1.settings {background:transparent url(../img/icon_header_settings.png) no-repeat 0 0;}
+.icon_label_gallery {background:transparent url(../img/icon_label_gallery.png) no-repeat 0 0;}
+.icon_label_smartgallery {background:transparent url(../img/icon_label_smartgallery.png) no-repeat 0 0;}
+.icon_label_album {background:transparent url(../img/icon_label_album.png) no-repeat 0 0;}
+.icon_label_uploadimg {background:transparent url(../img/icon_label_uploadimg.png) no-repeat 0 0;}
+.icon_label_newalbum {background:transparent url(../img/icon_label_newalbum.png) no-repeat 0 0;}
+.icon_label_newgallery {background:transparent url(../img/icon_label_newgallery.png) no-repeat 0 0;}
+.icon_label_profile {background:transparent url(../img/icon_label_profile.png) no-repeat 0 0;}
+.icon_label_doc {background:transparent url(../img/icon_label_doc.png) no-repeat 0 0;}
+.icon_label_feed {background:transparent url(../img/icon_label_feed.png) no-repeat 0 0;}
+.icon_label_smartalbum {background:transparent url(../img/icon_label_smartalbum.png) no-repeat 0 0;}
+.icon_label_user {background:transparent url(../img/icon_label_user.png) no-repeat 0 0;}
+.icon_label_slideshow {background:transparent url(../img/icon_label_slideshow.png) no-repeat 0 0;}
+table.sortable th.sortdesc {background: url(../img/sort_arrow_down.png) no-repeat 95% 55%;}
+table.sortable th.sortasc {background: url(../img/sort_arrow_up.png) no-repeat 95% 55%;}
+table.jCalendar {border-collapse: separate; border-spacing: 2px}
+table.jCalendar th {font-weight: bold; padding: 3px 5px; text-align:center}
+table.jCalendar td {padding: 3px 5px; text-align: center}
+div.dp-popup {position: relative; font-size: 10px; padding: 2px; line-height: 1.2em}
+div#dp-popup {position: absolute; z-index: 199}
+div.dp-popup h2 {font-size: 12px; text-align: center; margin: 3px 0 2px; padding: 0}
+a#dp-close {font-size: 11px; padding: 4px 0; text-align: center; display: block}
+a#dp-close:hover {text-decoration: underline}
+div.dp-popup a {text-decoration: none; padding: 3px 2px 0}
+div.dp-popup div.dp-nav-prev {position: absolute; top: 2px; left: 4px; width: 100px}
+div.dp-popup div.dp-nav-prev a {float: left}
+div.dp-popup div.dp-nav-prev a, div.dp-popup div.dp-nav-next a {cursor: pointer}
+div.dp-popup div.dp-nav-prev a.disabled, div.dp-popup div.dp-nav-next a.disabled {cursor: default}
+div.dp-popup div.dp-nav-next {position: absolute; top: 2px; right: 4px; width: 100px}
+div.dp-popup div.dp-nav-next a {float: right}
+div.dp-popup a.disabled {cursor: default; color: #aaa}
+div.dp-popup td {cursor: pointer}
+div.dp-popup td.disabled {cursor: default}
+div.dp-calendar {margin-top:6px}

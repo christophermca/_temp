@@ -1,0 +1,23 @@
+/*   
+Theme Name: Dawn Roscoe 2010 Theme
+Theme URI: http://dawnephoto.com
+Description: Wedding Photography Portfolio of Dawn Roscoe
+Author: Trevor McNaughton & Elena Jatia
+Author URI: http://trevormcnaughton.com & http://elenajatia.com
+Version: 1.0
+*/
+
+@import "style/css/reset.css";
+@import "style/css/text.css";
+@import "style/css/960.css";
+@import "style/css/layout.css";
+
+
+/*   
+Revisions by Christopher McAdams
+Author URI: Http://www.christophermca.com
+*/
+
+
+
+@import "style/css/revise.css";

@@ -1,0 +1,99 @@
+
+
+
+header{
+	height:100px;
+	min-width:1024px;
+	background-color:#f0d9fc;
+	
+		
+}
+
+nav {
+	position:relative;
+	top:35px;
+	padding:0px 20px 0px 20px;
+	margin:0px auto;
+	width:986px;
+	font-family:  "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-size:16px;
+	
+}
+
+nav a {
+	position:relative;
+	top:14px;
+	margin:70px 20px 0px 20px;
+	color:black;
+	text-decoration: none;
+}
+
+	
+nav img{
+z-index: 99;
+vertical-align: middle;
+}
+
+#main-content{
+
+top:33px;
+position: relative;
+margin:0px auto -150px auto;
+padding:0px 20px 0px 20px;
+width:986px;
+min-height:643px;
+height:100%;
+
+
+}	
+
+.about-me {
+
+position: relative;
+top:30px;
+width:647px;
+text-align: left;
+font-size:16px;
+left:93px;
+
+}
+
+#main-content img{
+
+position: relative;
+left:56px;
+
+
+}
+
+#FunnyBunnyHome{
+
+position:relative;
+top:60px;
+
+}
+
+#FunnyBunnyText{
+
+position:relative;
+top:-70px;
+
+}
+
+footer {
+	position: relative;
+	height:200px;
+	min-width:1024px;
+	background-color:#f0d9fc;
+
+}
+
+footer table{
+	font-size:11px;
+	color:#3a3a3a;
+	width:986px;
+	margin:0px auto;
+	padding:0px 20px;
+
+
+}

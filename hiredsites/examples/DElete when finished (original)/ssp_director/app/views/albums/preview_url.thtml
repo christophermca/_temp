@@ -1,0 +1,6 @@
+<?php
+	
+	list($src, $path) = explode(':', $album['Album']['aTn']);
+	e(p($src, $path, 216, 216, 0, 85, 1, $this->data['x'], $this->data['y'])); 
+
+?>

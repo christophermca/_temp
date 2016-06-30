@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title><?php __('Video'); ?></title>
+	<?php e($asset->js('base')); ?>
+	<style type="text/css" media="screen">
+		* {margin:0;padding:0;}
+	</style>
+</head>
+
+<body>
+	<div id="mov_cont" style="width:100%;height:100%;">
+		
+	</div>
+	<script type="text/javascript">
+		var swf = new SWFObject("<?php e(DIR_HOST); ?>/app/webroot/swf/vp.swf?ashsadgsd", "ei_video", "100%", "100%", "9");
+		swf.addParam("allowScriptAccess", "always");
+		swf.addVariable("xmlfile", "<?php e(DIR_HOST); ?>/index.php?/pics/vxml/<?php e($id); ?>");
+		swf.addVariable("full", true);
+		swf.write("mov_cont");
+	</script>
+</body>
+</html>

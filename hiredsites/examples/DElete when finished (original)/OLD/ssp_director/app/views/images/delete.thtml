@@ -1,0 +1,10 @@
+<script type="text/javascript" charset="utf-8">
+<?php if (!empty($previews)): foreach($previews as $image): ?>
+	$('drop_<?php e($image['Image']['id']); ?>').src = '<?php e($director->getVidThumb($image['Image']['src'], $image['Image']['lg_preview'], $image['Image']['aid'], 176, 132, 1, 70, 1, false)); ?>';
+<?php endforeach; endif; ?>
+
+<?php foreach($prvs as $p): ?>
+	$('counter_<?php e($p); ?>').select('SPAN')[0].removeClassName('is-vid-preview');
+<?php endforeach;  ?>
+	renum_counters();
+</script>

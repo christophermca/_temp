@@ -1,0 +1,138 @@
+/* TYPOGRAPHY */
+/* ----------------------------------------- */
+
+h1{font-size:28px;color:#8484c6;font-family: 'ChocolateBox';}
+h2{font-size:24px;color:#8484c6;font-family: 'ChocolateBox';}
+h3{font-size:22px;color:#8484c6;font-family: 'ChocolateBox';}
+h4{font-size:18px;color:#8484c6;font-family: 'ChocolateBox';}
+h5{font-size:16px;color:#8484c6;font-family: 'ChocolateBox';}
+h6{font-size:14px;color:#8484c6;font-family: 'ChocolateBox';}
+a{color:#9292db;text-decoration: none;}
+a:hover{text-decoration: underline;}
+strong{color:#662999;font-weight: bolder;}
+/*=================================================================================================  TOOLS */
+
+.align-center{text-align:center;}
+
+
+/*=================================================================================================  classes */
+
+.title{margin-bottom:25px;height: auto;color:#662999;}
+.ftsize11{font-size:16px;}
+.ftsize9{font-size:12px;}
+.title strong{margin-bottom:25px;}
+.excerpt{position: relative;margin-top:25px;bottom:0px;}
+.excerpt span {color:#9292db; font-family: 'ChocolateBox';}
+.category-book_excerpt strong{line-height: 25px;} 
+.textwidget p {color:#9292db;}
+
+
+
+/*=================================================================================================  Bullet lists */
+
+.bullet_list {font-size:14px;list-style:disc;   list-style-type:disc;}
+.bullet_list li{font-weight:300;list-style-type:disc; padding-bottom: 15px}
+.bullet_list strong{font-weight:400;color:#662999;font-size:16px;}
+
+.b_list {font-size:14px;list-style:disc;   list-style-type:none;}
+.b_list li{font-weight:300;list-style-type:none; padding-bottom: 15px}
+.b_list strong{font-weight:400;color:#662999;font-size:16px;}
+
+
+
+
+.linkcat{list-style-type: none;}
+.linkcat h3{margin-bottom:25px;}
+.linkcat li{margin-bottom:10px;}
+
+/*=================================================================================================  font family */
+
+.type_o{position:relative; top:-20px;font-size:14px; text-align:center;color:#fff;font-family:"Helvetica Neue", "Arial", "Helvetica", sans-serif;}
+.type_a{color:#000;font-family:"Helvetica Neue", "Arial", "Helvetica", sans-serif;}
+
+/*=================================================================================================  Comment */
+
+#reply-title{font-family:"Helvetica Neue", "Arial", "Helvetica", sans-serif; font-size:16px;margin:30px 0 0px 0px;}
+.must-log-in{color:#888; font-size:11px; margin:0px 0 15px 0;}
+.comment_links{font-size:14px;}
+._username{}
+.dateTimeEdit {
+font-size:14px;
+text-align:bottom;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Font stack options
+
+	The following represents a list of font stacks, as recommended by Nathan Ford in
+	http://unitinteractive.com/blog/2008/06/26/better-css-font-stacks/
+
+	I've added inverted commas around the relevant family names to ensure compatibility.
+	p = balanced for paragraphs or body copy
+	t = balanced for headlines or titles
+
+	- - - -
+
+Arial, "Helvetica Neue", Helvetica, sans-serif - p, t
+
+Baskerville, "Times New Roman", Times, serif - p
+Baskerville, "Times, Times New Roman", serif - t
+
+Cambria, Georgia, Times, "Times New Roman", serif - p, t
+"Century Gothic", "Apple Gothic", sans-serif - p, t
+
+Consolas, "Lucida Console", Monaco, monospace - p, t
+
+"Copperplate Light", "Copperplate Gothic Light", serif - p, t
+
+"Courier New", Courier, monospace - p, t
+
+"Franklin Gothic Medium", "Arial Narrow Bold", Arial, sans-serif - p, t
+
+Futura, "Century Gothic", "Apple Gothic", sans-serif - p, t
+
+Garamond, "Hoefler Text", "Times New Roman", Times, serif - p
+Garamond, "Hoefler Text", Palatino, "Palatino Linotype", serif - t
+
+Geneva, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif - p
+Geneva, Verdana, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif - t
+
+Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif - p
+Georgia, Times, "Times New Roman", serif - t
+
+GillSans, Calibri, Trebuchet, sans-serif - p
+GillSans, Trebuchet, Calibri, sans-serif - t
+
+"Helvetica Neue", Arial, Helvetica, sans-serif - p
+Helvetica, "Helvetica Neue", Arial, sans-serif - t
+
+Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif - p, t
+
+"Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif - p, t
+
+Palatino, "Palatino Linotype", Georgia, Times, "Times New Roman", serif - p
+Palatino, "Palatino Linotype", "Hoefler Text", Times, "Times New Roman", serif - t
+
+Tahoma, Geneva, Verdana - p
+Tahoma, Verdana, Geneva - t
+
+Times, "Times New Roman", Georgia, serif - p, t
+
+Trebuchet, "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif - p
+Trebuchet, Tahoma, Arial, sans-serif - t
+
+Verdana, Geneva, Tahoma, sans-serif - p
+Verdana, Tahoma, Geneva, sans-serif - t
+
+*/

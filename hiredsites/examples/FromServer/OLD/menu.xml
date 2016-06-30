@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+  <item title="Home" link="page1.php"/>
+  <item title="Our Story" link="page2.php"/>
+  <item title="Products" link="page3.php"/>
+  <item title="Contact Me" link="page9.php"/>
+</menu>

@@ -1,0 +1,37 @@
+<?php
+
+	if (isset($this->data['User'])) {
+		$current = $this->data['User']['theme'];
+	} else {
+		$current = $account['Account']['theme'];
+	}
+
+?>
+
+<li>
+	<strong><?php __('Theme'); ?>:</strong>&nbsp;&nbsp;<select id="theme-switcher" onchange="change_theme()">
+		<?php
+		
+		foreach($themes as $theme): if (file_exists(THEMES . DS . $theme . DS . $theme . '.css')):
+			$path = "/app/webroot/styles/$theme/$theme.css";
+		?>
+		<option<?php e(ife(($path == $current), ' selected="selected"', '')); ?> value="app--webroot--styles--<?php e($theme); ?>--<?php e($theme); ?>"><?php __(ucfirst($theme)); ?> </option>
+		
+		<?php endif; endforeach; ?>
+		
+		<?php if (!empty($custom_themes)): ?>
+		
+			<optgroup label="<?php __('Custom themes'); ?>">
+			
+				<?php foreach($custom_themes as $theme): $path = "/themes/$theme/$theme.css"; ?>
+			
+					<option<?php e(ife(($path == $current), ' selected="selected"', '')); ?> value="themes--<?php e($theme); ?>--<?php e($theme); ?>"><?php __(ucfirst($theme)); ?></option>
+				<?php endforeach; ?>
+			
+			</optgroup>
+		
+		<?php endif; ?>
+	</select>
+</li>
+
+<?php /* Hack for translation */ __('Default', true); __('White', true); ?>

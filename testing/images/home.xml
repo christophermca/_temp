@@ -1,0 +1,17 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<home>
+  <album id="home" title="" description="" lgPath="/images/home/">
+	
+    <img src="003.jpg"  tn="003.jpg"/>
+    <img src="006.jpg"  tn="006.jpg"/>
+    <img src="001.jpg" tn="001.jpg" />
+	<img src="002.jpg" tn="002.jpg" />
+	<img src="007.jpg"  tn="007.jpg"/>
+	<img src="004.jpg" tn="004.jpg"/>
+	<img src="005.jpg" tn="005.jpg" />
+	
+	
+</album>
+
+</home>

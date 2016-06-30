@@ -1,0 +1,3 @@
+db_name_not_exists = "In the connection to database string, the database name is not specified."
+db_type_not_support = "The used type of database is not supported."
+dsn_string = "In the connection to database line, the database name is not specified."

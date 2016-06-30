@@ -1,0 +1,5 @@
+cannot_open_file = "Cannot open the file."
+content_empty = "The saved file is empty."
+delete_file = "Cannot delete the file."
+dirname_attach_not_exists = "Directory attachments do not exist."
+free_space_disk = "Cannot save the file. Probably, there is no free space on the disk."

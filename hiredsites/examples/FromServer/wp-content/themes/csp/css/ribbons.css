@@ -1,0 +1,9 @@
+.ribbons li{list-style-type:none;min-height:100px;margin-bottom:15px;}
+.ribbons p{position:relative;top:37px}
+.ribbons img{position:relative;float:left;right:15px;}
+.ribbons{}
+.boxed{position: relative; right:15px;padding:15px;height:100%;border:2px dotted #6b3a9c;margin-bottom:15px;}
+.boxed img{position: relative; left:0px;}
+.boxed li{min-height: 0px;}
+.ribbons {font-family:'Chocolatebox';vertical-align: middle}
+.ribbons strong{}
