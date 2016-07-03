@@ -62,8 +62,7 @@ html {
 
 #topContainer {
     position: relative;
-    overflow: auto;
-    height: 90%;
+    height: 100%;
     min-height: 700px;
 }
 
@@ -94,8 +93,7 @@ html {
 }
 
 #appWrapper td:first-child {
-    color: #333;
-    font-size: 18pt;
+    font-size: 20pt;
     padding-right: 10px;
     text-align: left;
 }
@@ -155,9 +153,7 @@ html {
     text-align: center;
     min-height: 100px;
     width: 100%;
-    float: right;
-    margin-right: 20px;
-    margin-top: 20px;
+    margin: 20px auto 20;
     line-height: 10px;
 }
 
@@ -175,29 +171,30 @@ html {
 
 #thumbnails li {
     display: inline-block;
-    width: 84px;
-    height: 84px;
+    width: 100px;
+    height: 100px;
     overflow: hidden;
     margin-left: 10px;
 }
 
 #appWrapper footer {
+    position: relative;
     text-align: center;
     clear: both;
     height: 20px;
     color: white;
     background-color: black;
-    width: 920px;
+    width: 100%;
     left: -10px;
     bottom: 0;
-    position: relative;
-    top: 1500;
-    padding:10px 0;
+    top: 1500px;
+    padding:10px 0 20px;
 }
 
 iframe {
   position: relative;
   top: 1400px;
+  height: 4800px;
 }
 
 @media (min-device-width: 801px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -214,8 +211,7 @@ iframe {
 
   #topContainer {
     min-height: 700px;
-    height: auto;
-    overflow: hidden;
+    height: 100%;
   }
 
   #descr {
@@ -246,10 +242,15 @@ iframe {
 
   #thumbsHolder {
     width: 600px;
+    float: right;
     text-align: right;
+    margin-right: 20px;
+    margin-top: 20px;
   }
 
   #thumbnails li {
+    width: 84px;
+    height: 84px;
     margin-left: 0.286%;
     margin-top: 0.45%;
   }
@@ -273,10 +274,12 @@ iframe {
     bottom: 0;
     position: relative;
     top: 0;
+    padding: 10px 0;
   }
 
   iframe {
     position: relative;
     top: 0;
+    height: 1500px
   }
 }
