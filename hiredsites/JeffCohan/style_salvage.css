@@ -2,12 +2,16 @@ html {
     width: 100%
 }
 
+body {
+   -webkit-text-size-adjust: none;
+}
+
 #appWrapper {
     background: #ffffff;
     line-height: normal;
     font-size: 24pt;
     color: #555;
-    max-width: 920px;
+    width: auto;
     margin: 0 auto;
     padding: 0 10px 0 10px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -62,7 +66,7 @@ html {
 
 #topContainer {
     position: relative;
-    height: 100%;
+    height: auto;
     min-height: 700px;
 }
 
@@ -72,10 +76,17 @@ html {
 }
 
 #descr {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     top: 800px;
+    height: auto;
+    margin-bottom: 1000px;
+}
+
+span.descr {
+  display: block;
+  height: auto;
 }
 
 .contentTag {
@@ -88,7 +99,7 @@ html {
     background: white;
     text-align: left;
     width:100%;
-    color: 777;
+    color: #777;
     font-size: 24px;
 }
 
@@ -131,6 +142,7 @@ html {
 }
 
 #imageGallery {
+    position: absolute;
     width: 100%;
     min-height: 640px;
     max-height: 800px;
@@ -185,15 +197,12 @@ html {
     color: white;
     background-color: black;
     width: 100%;
-    left: -10px;
     bottom: 0;
-    top: 1500px;
     padding:10px 0 20px;
 }
 
 iframe {
   position: relative;
-  top: 1400px;
   height: 4800px;
 }
 
@@ -201,7 +210,7 @@ iframe {
   #appWrapper {
     line-height: 16px;
     font-size: 12px;
-
+    max-width: 920px;
   }
 
   #appWrapper h4 {
@@ -215,15 +224,16 @@ iframe {
   }
 
   #descr {
-      position: relative;
       top: 0;
       width: 270px;
       min-height: 700px;
       float: right;
       padding-right: 10px;
+      margin-bottom: 0;
   }
 
   #imageGallery {
+    position: relative;
     text-align: center;
     margin: 20px 0 0;
     padding: 0;
@@ -237,7 +247,6 @@ iframe {
     width: 600px;
     height: 600px;
     list-style-type: none;
-    text-align: left;
   }
 
   #thumbsHolder {
@@ -275,6 +284,7 @@ iframe {
     position: relative;
     top: 0;
     padding: 10px 0;
+    left: -10px;
   }
 
   iframe {

@@ -20,10 +20,11 @@ header img {
 
 h4 {
   color: #333;
-  font-size: 16px;
+  font-size: 18pt;
   font-weight: normal;
 
 }
+
 .line {
   margin:0;
   padding:0;
@@ -99,9 +100,9 @@ h4 {
 
 #policies li,
 #continu li {
-  margin: 0px 0px 5px 0px;
-  line-height: 14px;
-  font-size: 12px !important;
+  margin-bottom: 15px;
+  line-height: 18px;
+  font-size: 18px !important;
 }
 
 
@@ -132,8 +133,20 @@ h4 {
     width: 100%
   }
 
-#bottomContainer h3 {
-  font-size:17px;
-}
+  #policies li,
+  #continu li {
+    margin-bottom: 5px;
+    line-height: 14px;
+    font-size: 12px !important;
+  }
+
+  h4 {
+    font-size: 16px;
+
+  }
+
+  #bottomContainer h3 {
+    font-size:17px;
+  }
 
 }
