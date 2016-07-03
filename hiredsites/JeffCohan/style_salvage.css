@@ -1,8 +1,11 @@
+html {
+    width: 100%
+}
 
 #appWrapper {
     background: #ffffff;
-    line-height: 16px;
-    font-size: 12px;
+    line-height: normal;
+    font-size: 24pt;
     color: #555;
     max-width: 920px;
     margin: 0 auto;
@@ -23,21 +26,23 @@
 }
 
 #appWrapper h4 {
-    color: 333;
-    font-size:16px;
+    color: #333;
+    font-size: 32px;
 }
 
 #appWrapper .line {
+    line-height: 16px;
+    font-size: 12px;
     margin:0;
     padding:0;
-    width:1024px;
+    width:100%;
     display:inline-block;
-    list-style-type:none; 
+    list-style-type:none;
 }
 
 #appWrapper .line li {
-    display:inline-block;
-    list-style-type:none;
+    display: inline-block;
+    list-style-type: none;
 }
 
 #appWrapper .line hr:first-child {
@@ -46,30 +51,32 @@
 }
 
 #appWrapper .line hr {
-    width:450px;
-    float:right;
+    width: 450px;
+    float: right;
 }
 
 .line li p {
     position:relative;
-    top: 4px;
+    top: -4px;
 }
 
 #topContainer {
+    position: relative;
+    overflow: auto;
+    height: 90%;
     min-height: 700px;
-    height: auto;
-    overflow:hidden;
 }
+
 
 #appWrapper table {
     border-collapse: collapse;
 }
 
 #descr {
-    width: 270px;
-    min-height: 700px;
-    float: right;
-    padding-right: 10px
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    top: 800px;
 }
 
 .contentTag {
@@ -77,25 +84,26 @@
 }
 
 .title {
-    padding-top:5px;
+    padding-top: 15px;
     font-weight: 400;
     background: white;
     text-align: left;
     width:100%;
     color: 777;
-    font-size:12px;
+    font-size: 24px;
 }
 
 #appWrapper td:first-child {
-    color: '#333';
-    font-size: 9pt;
+    color: #333;
+    font-size: 18pt;
     padding-right: 10px;
     text-align: left;
 }
 
 #appWrapper td {
     font-weight: 200;
-    font-size: 12px;
+    font-size: 24pt;
+    padding: 7px 0;
 }
 
 #appWrapper td:nth-child(even) {
@@ -124,26 +132,17 @@
     width: 100%;
 }
 
-
-#imagesGallery {
-    text-align: center;
-    margin: 20px 0 0 0;
-    padding: 0;
-    float: left;
-    width: 640px;
+#imageGallery {
+    width: 100%;
     min-height: 640px;
+    max-height: 800px;
+    top: 0;
 }
 
 #images {
-    margin:0;
-    padding: 0;
+    margin:0 auto;
     width: 600px;
-    height: 600px;
-    list-style-type: none;
-    text-align: left;
-}
-#images {
-    list-style-type: none;
+    padding: 0;
 }
 
 #images img {
@@ -153,30 +152,33 @@
 }
 
 #thumbsHolder {
-    text-align: right;
+    text-align: center;
     min-height: 100px;
-    width: 600px;
+    width: 100%;
     float: right;
-    margin-right: 40px;
+    margin-right: 20px;
     margin-top: 20px;
     line-height: 10px;
 }
 
 #thumbnails {
     margin: 0;
-    padding:  0;
+    padding: 0;
     width: 100%;
     min-height: 100px;
     display: inline-block;
     list-style-type: none;
 }
+#thumbnails li:first-child {
+  margin-left: 0;
+}
+
 #thumbnails li {
     display: inline-block;
     width: 84px;
     height: 84px;
     overflow: hidden;
-    margin-left: 286%;
-    margin-top: 45%;
+    margin-left: 10px;
 }
 
 #appWrapper footer {
@@ -187,30 +189,94 @@
     background-color: black;
     width: 920px;
     left: -10px;
+    bottom: 0;
+    position: relative;
+    top: 1500;
     padding:10px 0;
 }
 
-@media (min-width:320px) {
+iframe {
+  position: relative;
+  top: 1400px;
+}
+
+@media (min-device-width: 801px) and (-webkit-min-device-pixel-ratio: 2) {
+  #appWrapper {
+    line-height: 16px;
+    font-size: 12px;
+
+  }
+
+  #appWrapper h4 {
+      color: #333;
+      font-size: 16px;
+  }
+
+  #topContainer {
+    min-height: 700px;
+    height: auto;
+    overflow: hidden;
+  }
 
   #descr {
-      float: none;
-      width: 100%
+      position: relative;
+      top: 0;
+      width: 270px;
+      min-height: 700px;
+      float: right;
+      padding-right: 10px;
+  }
+
+  #imageGallery {
+    text-align: center;
+    margin: 20px 0 0;
+    padding: 0;
+    float: left;
+    width: 640px;
+    min-height: 640px;
   }
 
   #images {
     margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    list-style-type: none;
+    text-align: left;
   }
 
   #thumbsHolder {
-    width: 100%;
-    text-align: center;
+    width: 600px;
+    text-align: right;
   }
+
   #thumbnails li {
-    margin: 0;
+    margin-left: 0.286%;
+    margin-top: 0.45%;
   }
 
-}
+  #appWrapper td:first-child {
+      color: #333;
+      font-size: 9pt;
+  }
 
-@media (min-width:480px) {}
-@media (min-width:600px) {}
-@media (min-width:801px) {}
+  #appWrapper td {
+      font-size: 12px;
+  }
+
+  .title {
+    padding-top: 5px;
+    font-size: 12px;
+
+  }
+
+  #appWrapper footer {
+    bottom: 0;
+    position: relative;
+    top: 0;
+  }
+
+  iframe {
+    position: relative;
+    top: 0;
+  }
+}
