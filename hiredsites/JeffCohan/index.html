@@ -361,8 +361,8 @@ Copy and paste:
 ===============================================================
 ===============================================================
 -->
-<iframe src="iframe.html" align="middle" frameborder="0" width="940px" scrolling="no" height="1500px"></iframe>
-
+<iframe id="policy-section" src="iframe.html" align="middle" frameborder="0"
+  width="940px"  scrolling="no" ></iframe>
 <footer>
     Copyright &copy; 2013 Style &amp; Salvage
 </footer>
@@ -381,6 +381,9 @@ Copy and paste:
 
 
 <script type="text/javascript">
+
+document.getElementById('policy-section').height = window.sessionStorage.policyHeight
+
 var photoArray = []
 var images = document.getElementById('images').children;
 var thumbnails = document.getElementById('thumbnails');
@@ -442,6 +445,8 @@ for(var i = 0; i < lis.length; i++) {
     images[n].style.display = 'block'
   }
 }
+
+
 
 </script>
 </div><!--end of wrapper-->
