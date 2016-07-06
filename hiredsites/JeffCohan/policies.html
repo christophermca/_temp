@@ -145,8 +145,11 @@ Policies Section
                 </div>
             </div>
 <script>
-  size = document.getElementById('policies').clientHeight + document.getElementById('continu').clientHeight
-  window.sessionStorage.policyHeight = Math.ceil(size) + 350 + 'px'
+  var size = document.getElementById('policies').clientHeight + document.getElementById('continu').clientHeight
+  var getSize = Math.ceil(size) + 350 + 'px'
+  debugger;
+
+  window.postMessage( getSize,  "*")
 
 </script>
 </body>
