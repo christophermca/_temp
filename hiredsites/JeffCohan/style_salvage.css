@@ -28,6 +28,7 @@
     padding:0;
     display:inline-block;
     list-style-type:none;
+    vertical-align: middle;
   }
 
   #appWrapper ul.line li{
@@ -47,7 +48,9 @@
 
   ul.line li p{
     position:relative;
-    top:-4px;
+    top: 0;
+    padding: 0;
+    margin: 0;
   }
 
   #topContainer{

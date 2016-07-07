@@ -1,25 +1,18 @@
-html {
-    height: 100%;
-    width: 100%
-}
-
 body {
-  display: table;
-  width: 100%;
-  height: 100%;
   background: #ffffff;
-  line-height: 16px;
+  line-height:16px;
   font-size: 12px;
   font-weight: normal;
   color: #555;
-  margin: 0;
-  padding: 0;
+  max-width: 920px;
+  margin: 0 ;
+  padding: 0 ;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 header {
   height: 100px;
-  text-align: center;
+  text-align:center;
 }
 
 header img {
@@ -27,14 +20,12 @@ header img {
 }
 
 h4 {
-  color: #333;
-  font-size: 18pt;
-  font-weight: normal;
+  color:#333;
+  font-size:16px;
+  font-weight:normal;
 
 }
-
 .line {
-  width: 100%;
   margin:0;
   padding:0;
   display:inline-block;
@@ -47,12 +38,12 @@ h4 {
 }
 
 .line hr:first-child {
-  /*width:450px;*/
+  width:450px;
   float:left;
 }
 
 .line hr {
-  /*width:450px;*/
+  width:450px;
   float:right;
 }
 
@@ -63,100 +54,62 @@ h4 {
 
 #bottomContainer {
   color:#555;
-  height:100%;
+  min-height:100%;
+  clear:both;
   width:100%;
-  /*margin:0 0 150px 0*/
+  margin:0 0 150px 0;
   position: relative;
-  overflow:visible;
+  overflow:hidden;
 }
 
 #bottomContainer h3 {
-  font-size: 20pt;
-  line-height: normal;
-  font-weight: normal;
-  padding-bottom: 20px;
-  margin: 0;
-  text-align: center
+  font-size:17px;
+  font-weight:normal;
+  padding-bottom:20px;
+  margin:0;
+  text-align:center
 }
 
-#policies {
+#policies, #continu {
+  background-color:#F3F3F3;
+  font-size:12px !important;
+  padding: 0px 10px 20px;
   float: left;
+  height:1186px;
+  width: 435px;
 }
 
-#continu {
-  float: right;
-}
-
-#policies,
-#continu {
-  position: relative;
-  display: inline-block;
-  background-color: #F3F3F3;
-  font-size: 12px !important;
-  padding: 0 20px 0;
-  height: 100%;
-  width: 100%;
-}
-
-#policies ul,
-#continu ul {
+#policies ul {
   text-align: left;
   margin-left: -25px;
-  width: 95%
 
 }
 
-#policies li,
-#continu li {
-  margin-bottom: 15px;
-  line-height: normal;
-  font-size: 28pt !important;
+#policies li, #continu li {
+  margin: 0px 0px 5px 0px;
+  line-height:14px;
+  font-size:12px !important;
 }
 
 
+#continu {
+  position:relative;
+  display:inline-block;
+  height:1186px;
+  float: right;
+  font-size:12px;
+
+}
 
 #continu h5 {
   margin-bottom: -5px;
-  color: blue;
+  color:blue;
 
 }
 
-@media (min-device-width: 801px) {
-  #policies,
-  #continu {
-    padding: 0px 10px 20px;
-    height: 1186px;
-    width: 435px;
-  }
-
-  #continu {
-    clear: right;;
-  }
-
-  body {
-    max-width: 920px;
-    padding: 0;
-  }
-
-  #policies ul,
-  #contiu ul {
-    width: 100%
-  }
-
-  #policies li,
-  #continu li {
-    margin-bottom: 5px;
-    line-height: 14px;
-    font-size: 12px !important;
-  }
-
-  h4 {
-    font-size: 16px;
-
-  }
-
-  #bottomContainer h3 {
-    font-size:17px;
-  }
+#continu ul {
+  text-align: left;
+  margin-left: -25px;
 
 }
+
