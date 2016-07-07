@@ -241,4 +241,7 @@
     margin: 0;
     padding: 0;
   }
+  #appWrapper ul.line hr{
+    width:440px;
+  }
 }
