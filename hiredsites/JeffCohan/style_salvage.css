@@ -231,7 +231,7 @@
     left: -10px;
     padding:10px 0;
   }
-@media (min-device-width 600) {
+@media (min-device-width: 600) {
   #appWrapper {
     position: relative;
     left:-45px;
