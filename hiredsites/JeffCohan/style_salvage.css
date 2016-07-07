@@ -148,7 +148,6 @@
     text-align:right;
     min-height: 100px;
     width:600px;
-    float:right;
     margin-right:40px;
     margin-top:20px;
     line-height:10px;
@@ -244,6 +243,5 @@
 
   #appWrapper ul.line hr:first-child{
     width:440px;
-    float:left;
   }
 }
