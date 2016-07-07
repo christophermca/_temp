@@ -250,6 +250,7 @@
 
   #topContainer {
     font-size: 16pt;
+    line-height: normal;
   }
 
   #imageGallery {
