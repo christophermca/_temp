@@ -258,6 +258,9 @@
     line-height: normal;
   }
 
+  #images {
+    float: left;
+  }
   #imageGallery {
     position: absolute;
     top: 250px;
