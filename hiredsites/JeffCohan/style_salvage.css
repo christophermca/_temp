@@ -9,16 +9,16 @@
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
 
-  #appWrapper header{
+  #appWrapper header {
     height: 100px;
     text-align:center;
   }
 
-  #appWrapper header img{
+  #appWrapper header img {
     margin: 0px auto 0px auto;
   }
 
-  #appWrapper h4{
+  #appWrapper h4 {
     color:#333;
     font-size:16px;
   }
@@ -30,30 +30,30 @@
     list-style-type:none;
   }
 
-  #appWrapper ul.line li{
+  #appWrapper ul.line li {
     display:inline-block;
     list-style-type:none;
     vertical-align: middle;
   }
 
-  #appWrapper ul.line hr:first-child{
+  #appWrapper ul.line hr:first-child {
     width:450px;
     float:left;
   }
 
-  #appWrapper ul.line hr{
+  #appWrapper ul.line hr {
     width:450px;
     float:right;
   }
 
-  ul.line li p{
+  ul.line li p {
     position:relative;
     top: 0;
     padding: 0;
     margin: 0;
   }
 
-  #topContainer{
+  #topContainer {
     min-height: 700px;
     height: auto;
     overflow:hidden;
@@ -188,12 +188,12 @@
     width: 415px;
   }
 
-  #policies ul{
+  #policies ul {
     text-align: left;
     margin-left: -25px;
   }
 
-  #cont{
+  #cont {
     background-color:#F3F3F3; 
     font-size:12px;
     padding:20px;
@@ -204,16 +204,16 @@
     width: 415px;
   }
 
-  #cont h5{
+  #cont h5 {
     margin-bottom: -5px;
   }
 
-  #cont ul{
+  #cont ul {
     text-align: left;
     margin-left: -25px;
   }
 
-  #appWrapper footer{
+  #appWrapper footer {
     text-align: center;
     clear: both;
     height: 20px;
@@ -234,13 +234,20 @@
     padding: 0;
   }
 
-  #appWrapper ul.line hr:first-child{
+  #appWrapper ul.line hr:first-child {
     width:440px;
   }
 }
 
 @media only screen 
   and (min-device-width: 320px) {
+  #appWrapper {
+    position: relative;
+    left: 0;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0;
+  }
 
   #topContainer {
     font-size: 14pt;
@@ -252,7 +259,7 @@
     left: 24%
   }
 
-  #descr{
+  #descr {
     position: relative;
     top: 800px;
     margin-bottom: 800px;
@@ -264,7 +271,7 @@
   .discr {
     display: block;
   }
-  #appWrapper h4{
+  #appWrapper h4 {
     font-size:16pt;
   }
   #appWrapper td:first-child,
