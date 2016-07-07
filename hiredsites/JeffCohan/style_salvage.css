@@ -274,7 +274,8 @@
     width: 300px;
     margin: 0;
   }
-  #thumbnails li {
+
+  #thumbnails li{
     margin-left: 3%;
   }
 
