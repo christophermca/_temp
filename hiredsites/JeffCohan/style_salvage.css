@@ -274,6 +274,9 @@
     width: 300px;
     margin: 0;
   }
+  #thumbnails li {
+    margin-left: 3%;
+  }
 
   #descr {
     position: relative;
