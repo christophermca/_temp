@@ -118,15 +118,6 @@
     width:100%;
   }
 
-  #imagesGallery{
-    text-align:center; 
-    margin:20px 0 0 0;
-    padding: 0;
-    float: left; 
-    width: 640px;
-    min-height: 640px;
-  }
-
   #images{
     margin:0;
     padding: 0;
@@ -255,7 +246,7 @@
     font-size: 14pt;
   }
 
-  #imagesGallery{
+  #imageGallery {
     position: absolute;
     top: 250px;
   }
