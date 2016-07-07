@@ -1,6 +1,6 @@
   #appWrapper {
     background: #ffffff;
-    uine-height:16px;
+    line-height:16px;
     font-size: 12px;
     color: #555;
     max-width: 920px;
@@ -229,5 +229,14 @@
     background-color: black;
     width: 920px;
     left: -10px;
-    padding:10px 0; 
+    padding:10px 0;
   }
+@media (min-device-width 600) {
+  #appWrapper {
+    position: relative;
+    left:-45px;
+    max-width: 900px;
+    margin: 0;
+    padding: 0;
+  }
+}
