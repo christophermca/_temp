@@ -115,10 +115,11 @@ h4 {
 
 @media only screen 
   and (min-device-width: 320px) {
-  #policies,
-  #continu {
+  #policies li,
+  #continu li{
     width: 100%;
     font-size:16px !important;
+    line-height: normal;
   }
 
   #continu {
