@@ -67,7 +67,7 @@
     width: 270px;
     min-height: 700px;
     float: right;
-    padding-right: 10px
+    padding-right: 10px;
   }
 
   .descr{
@@ -252,6 +252,8 @@
 @media only screen 
   and (min-device-width: 320px) {
   #descr{
-    float: none;
+    width: 100%;
+    padding-right: 0;
+    float: right;
   }
 }
