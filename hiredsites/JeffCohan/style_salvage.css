@@ -1,6 +1,6 @@
   #appWrapper {
     background: #ffffff;
-    line-height:16px;
+    uine-height:16px;
     font-size: 12px;
     color: #555;
     max-width: 920px;
@@ -23,29 +23,29 @@
     font-size:16px;
   }
 
-  #appWrapper .line{
+  #appWrapper ul.line {
     margin:0;
     padding:0;
-    display:inline-block;
-    list-style-type:none; 
-  }
-
-  #appWrapper .line li{
     display:inline-block;
     list-style-type:none;
   }
 
-  #appWrapper .line hr:first-child{
+  #appWrapper ul.line li{
+    display:inline-block;
+    list-style-type:none;
+  }
+
+  #appWrapper ul.line hr:first-child{
     width:450px;
     float:left;
   }
 
-  #appWrapper .line hr{
+  #appWrapper ul.line hr{
     width:450px;
     float:right;
   }
 
-  .line li p{
+  ul.line li p{
     position:relative;
     top:-4px;
   }
