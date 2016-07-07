@@ -281,5 +281,8 @@
     font-size:16pt;
     line-height: normal;
   }
+  #appWrapper footer {
+    font-size: 14pt
+  }
 
 }
