@@ -267,7 +267,9 @@
   #appWrapper h4{
     font-size:16pt;
   }
-  #appWrapper td {
+  #appWrapper td:first-child,
+  #appWrapper td:nth-child(even),
+  #appWrapper td:nth-child(odd) {
     font-size:12pt;
   }
 
