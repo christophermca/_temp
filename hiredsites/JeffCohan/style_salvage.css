@@ -264,6 +264,13 @@
     left: 20%
   }
 
+  #thumbsHolder{
+    float: right;
+    min-height: 100px;
+    width: 300px;
+    margin: 0;
+  }
+
   #descr {
     position: relative;
     top: 800px;
