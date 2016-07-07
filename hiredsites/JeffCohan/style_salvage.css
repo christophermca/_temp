@@ -240,7 +240,8 @@
 }
 
 @media only screen 
-  and (min-device-width: 320px) {
+  and (min-device-width: 320px)
+  and (max-device-width: 599px) {
   #appWrapper {
     position: relative;
     left: 0;
@@ -284,6 +285,7 @@
   #appWrapper footer {
     font-size: 14pt
   }
+
   iframe {
     height: 2412px;
   }
