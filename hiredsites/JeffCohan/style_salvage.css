@@ -267,7 +267,7 @@
   #appWrapper h4{
     font-size:16pt;
   }
-  #appWrapper td:first-child{
+  #appWrapper td {
     font-size:12pt;
   }
 
