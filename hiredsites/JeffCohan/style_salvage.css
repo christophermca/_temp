@@ -253,14 +253,22 @@
 
   #topContainer {
     font-size: 14pt;
+  }
 
+  #imagesGallery{
+    position: absolute;
+    top: 250px;
   }
 
   #descr{
+    position: relative;
+    top: 800px;
+    margin-bottom: 800px;
     width: 100%;
     padding-right: 0;
     float: right;
   }
+
   .discr {
     display: block;
   }
