@@ -284,5 +284,9 @@
   #appWrapper footer {
     font-size: 14pt
   }
+  iframe {
+    min-height: 1500px;
+    max-height; 2412px;
+  }
 
 }
