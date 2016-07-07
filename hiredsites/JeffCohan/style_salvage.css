@@ -249,7 +249,7 @@
   }
 
   #topContainer {
-    font-size: 14pt;
+    font-size: 16pt;
   }
 
   #imageGallery {
@@ -271,12 +271,12 @@
     display: block;
   }
   #appWrapper h4 {
-    font-size:16pt;
+    font-size:18pt;
   }
   #appWrapper td:first-child,
   #appWrapper td:nth-child(even),
   #appWrapper td:nth-child(odd) {
-    font-size:12pt;
+    font-size:16pt;
   }
 
 }
