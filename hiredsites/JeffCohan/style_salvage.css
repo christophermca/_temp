@@ -249,6 +249,7 @@
   #imageGallery {
     position: absolute;
     top: 250px;
+    left: 24%
   }
 
   #descr{
