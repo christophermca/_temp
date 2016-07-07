@@ -261,7 +261,8 @@
   #imageGallery {
     position: absolute;
     top: 250px;
-    left: 20%
+    width: 100%;
+
   }
 
   #thumbsHolder{
