@@ -115,6 +115,9 @@ h4 {
 
 @media only screen 
   and (min-device-width: 320px) {
+  #policies {
+    height: 1000px
+  }
   #policies,
   #continu {
     width: 100%;
