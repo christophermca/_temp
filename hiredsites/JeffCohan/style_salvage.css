@@ -28,12 +28,12 @@
     padding:0;
     display:inline-block;
     list-style-type:none;
-    vertical-align: middle;
   }
 
   #appWrapper ul.line li{
     display:inline-block;
     list-style-type:none;
+    vertical-align: middle;
   }
 
   #appWrapper ul.line hr:first-child{
