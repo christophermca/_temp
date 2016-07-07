@@ -1,6 +1,7 @@
-<head>
-  <link rel="stylesheet" href="http://webhired.christophermca.com/style_salvage.css" />
-</head>
+<html>
+  <head>
+    <link rel="stylesheet" href="style_salvage.css" />
+  </head>
 
 <body>
 
@@ -272,10 +273,6 @@ Copy and paste:
 =========================
 -->
 
-
-
-
-
                     <tr>
                         <td>Inventory #</td>
                         <td>M1112T04-T10</td>
@@ -295,7 +292,6 @@ Copy and paste:
 -->
 
         <div id="imageGallery" >
-
 
             <ul id="images">
 
@@ -361,13 +357,14 @@ Copy and paste:
 ===============================================================
 ===============================================================
 -->
-<iframe id="policy-section" src="policies.html" align="middle" frameborder="0"
-  width="940px"  scrolling="no" ></iframe>
+  <div class="policy-container">
+    <iframe id="policy-section" src="policies.html" align="middle" 
+      frameborder="0" scrolling="no" ></iframe>
+  </div>
+
 <footer>
     Copyright &copy; 2013 Style &amp; Salvage
 </footer>
-
-</div>
 
 <!--
 ===============================================================
@@ -379,74 +376,72 @@ Copy and paste:
 ===============================================================
 -->
 
+</div><!--end of wrapper-->
 
 <script type="text/javascript">
 
-document.getElementById('policy-section').height = window.sessionStorage.policyHeight
-
-var photoArray = []
-var images = document.getElementById('images').children;
-var thumbnails = document.getElementById('thumbnails');
+  var photoArray = []
+  var images = document.getElementById('images').children;
+  var thumbnails = document.getElementById('thumbnails');
 
 
-// Get img src and stores them in the photoArray
+  // Get img src and stores them in the photoArray
 
 
-for(i = 0; i < images.length; i++) {
-  if(images[i].nodeName.toLowerCase() == 'li') {
-    images[i].style.display = 'none';
-    if(images[i].hasChildNodes('img')) {
-      var y = images[i].childNodes
+  for(i = 0; i < images.length; i++) {
+    if(images[i].nodeName.toLowerCase() == 'li') {
+      images[i].style.display = 'none';
+      if(images[i].hasChildNodes('img')) {
+        var y = images[i].childNodes
 
-        for(I = 0; I < y.length; I++) {
-          if(y[I].nodeName.toLowerCase() == 'img') {
-            photoArray.push(y[I].src)
+          for(I = 0; I < y.length; I++) {
+            if(y[I].nodeName.toLowerCase() == 'img') {
+              photoArray.push(y[I].src)
+            }
           }
-        }
-    }
-  }
-}
-
-// Init the first images gallery
-
-images[0].style.display = 'block';
-
-
-//  Creates thumbnails & assigns src via photoArray
-
-var i = 0;
-while( i < photoArray.length) {
-
-  var thumb=document.createElement("li");
-  var thumbImg = document.createElement("img");
-
-
-  thumbImg.src = photoArray[i];
-  thumbImg.style.width = '84px';
-  thumbImg.style.height = '84px';
-
-  thumb.appendChild(thumbImg); // This line is what creates the list and image
-  document.getElementById('thumbnails').appendChild(thumb);
-   i++
-}
-
-
-lis = thumbnails.getElementsByTagName('li');
-for(var i = 0; i < lis.length; i++) {
-  lis[i].classList.add(i);
-  images[i].classList.add(i);
-  lis[i].onmouseover = function() {
-    var n = this.className;
-    for(i = 0; i < images.length; i++) {
-      if(images[i].nodeName.toLowerCase() == 'li') {
-        images[i].style.display = 'none';
       }
     }
-    images[n].style.display = 'block'
   }
-}
+
+  // Init the first images gallery
+
+  images[0].style.display = 'block';
 
 
+  //  Creates thumbnails & assigns src via photoArray
+
+  var i = 0;
+  while( i < photoArray.length) {
+
+    var thumb=document.createElement("li");
+    var thumbImg = document.createElement("img");
+
+
+    thumbImg.src = photoArray[i];
+    thumbImg.style.width = '84px';
+    thumbImg.style.height = '84px';
+
+    thumb.appendChild(thumbImg); // This line is what creates the list and image
+    document.getElementById('thumbnails').appendChild(thumb);
+     i++
+  }
+
+
+  lis = thumbnails.getElementsByTagName('li');
+  for(var i = 0; i < lis.length; i++) {
+    lis[i].classList.add(i);
+    images[i].classList.add(i);
+    lis[i].onmouseover = function() {
+      var n = this.className;
+      for(i = 0; i < images.length; i++) {
+        if(images[i].nodeName.toLowerCase() == 'li') {
+          images[i].style.display = 'none';
+        }
+      }
+      images[n].style.display = 'block'
+    }
+  }
 
 </script>
-</div><!--end of wrapper-->
+</body>
+</html>

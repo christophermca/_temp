@@ -1,12 +1,19 @@
+html {
+    height: 100%;
+    width: 100%
+}
+
 body {
-  height: auto;
+  display: table;
+  width: 100%;
+  height: 100%;
   background: #ffffff;
   line-height: 16px;
   font-size: 12px;
   font-weight: normal;
   color: #555;
-  margin: 0 auto;
-  padding: 0
+  margin: 0;
+  padding: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -27,6 +34,7 @@ h4 {
 }
 
 .line {
+  width: 100%;
   margin:0;
   padding:0;
   display:inline-block;
@@ -39,12 +47,12 @@ h4 {
 }
 
 .line hr:first-child {
-  width:450px;
+  /*width:450px;*/
   float:left;
 }
 
 .line hr {
-  width:450px;
+  /*width:450px;*/
   float:right;
 }
 
@@ -55,12 +63,11 @@ h4 {
 
 #bottomContainer {
   color:#555;
-  min-height:100%;
-  clear:both;
+  height:100%;
   width:100%;
-  margin:0 0 150px 0;
+  /*margin:0 0 150px 0*/
   position: relative;
-  overflow:hidden;
+  overflow:visible;
 }
 
 #bottomContainer h3 {
@@ -87,8 +94,8 @@ h4 {
   background-color: #F3F3F3;
   font-size: 12px !important;
   padding: 0 20px 0;
-  height: auto;
-  width: auto;
+  height: 100%;
+  width: 100%;
 }
 
 #policies ul,
@@ -102,8 +109,8 @@ h4 {
 #policies li,
 #continu li {
   margin-bottom: 15px;
-  line-height: 18px;
-  font-size: 18px !important;
+  line-height: normal;
+  font-size: 28pt !important;
 }
 
 
@@ -123,7 +130,7 @@ h4 {
   }
 
   #continu {
-    clear: right;
+    clear: right;;
   }
 
   body {
