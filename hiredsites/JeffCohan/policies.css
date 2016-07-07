@@ -122,11 +122,15 @@ h4 {
   #continu {
     width: 100%;
   }
+  #policies ul,
+  #continu ul {
+    padding: 0 20px;
+  }
+
   #policies li,
-  #continu li{
+  #continu li {
     font-size:16px !important;
     line-height: normal;
-    padding: 0 20px;
   }
 
   #continu {
